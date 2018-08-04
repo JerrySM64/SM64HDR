@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{49A277DB-7D3C-C6FF-6242-19CF12688F51}") = "Super Mario 64 HD Remake NEW", "Assembly-CSharp-firstpass.csproj", "{394267BF-03B6-A742-7A31-D087CBE5E4EA}"
+EndProject
+Project("{49A277DB-7D3C-C6FF-6242-19CF12688F51}") = "Super Mario 64 HD Remake NEW", "Assembly-CSharp.csproj", "{427FB18A-BFDC-2167-7F56-04F8D532570D}"
+EndProject
+Project("{49A277DB-7D3C-C6FF-6242-19CF12688F51}") = "Super Mario 64 HD Remake NEW", "Assembly-CSharp-Editor.csproj", "{89140B96-32F1-3BB9-9C49-A40B26D3E49E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{394267BF-03B6-A742-7A31-D087CBE5E4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394267BF-03B6-A742-7A31-D087CBE5E4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394267BF-03B6-A742-7A31-D087CBE5E4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394267BF-03B6-A742-7A31-D087CBE5E4EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{427FB18A-BFDC-2167-7F56-04F8D532570D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427FB18A-BFDC-2167-7F56-04F8D532570D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427FB18A-BFDC-2167-7F56-04F8D532570D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427FB18A-BFDC-2167-7F56-04F8D532570D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89140B96-32F1-3BB9-9C49-A40B26D3E49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89140B96-32F1-3BB9-9C49-A40B26D3E49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89140B96-32F1-3BB9-9C49-A40B26D3E49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89140B96-32F1-3BB9-9C49-A40B26D3E49E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

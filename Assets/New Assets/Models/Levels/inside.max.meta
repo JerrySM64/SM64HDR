@@ -1,0 +1,2770 @@
+fileFormatVersion: 2
+guid: c171ebbd8c7aab04c84dcc2ab515815d
+timeCreated: 1506187083
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: r0
+    100004: r0-node
+    100006: r1
+    100008: r1-node
+    100010: r2
+    100012: r2-node
+    100014: r3
+    100016: r3-node
+    100018: r4
+    100020: r4-node
+    100022: r5
+    100024: r5-node
+    100026: r6
+    100028: r6-node
+    100030: r7
+    100032: r7-node
+    100034: AnalogCircleTest
+    100036: AnalogCircleTest 1
+    100038: Ankle_L_IK
+    100040: Ankle_R_IK
+    100042: Aquarium1
+    100044: Aquarium1 (1)
+    100046: Aquarium1 (2)
+    100048: Aquarium1 (3)
+    100050: AuxInputs
+    100052: BackButton
+    100054: Background
+    100056: Background 1
+    100058: BlackMatte
+    100060: bn_chest
+    100062: bn_head
+    100064: bn_hip
+    100066: bn_L_armlower
+    100068: bn_L_armupper
+    100070: bn_L_foot
+    100072: bn_L_hand
+    100074: bn_L_shin
+    100076: bn_L_thigh
+    100078: bn_neck
+    100080: bn_R_armlower
+    100082: bn_R_armupper
+    100084: bn_R_foot
+    100086: bn_R_hand
+    100088: bn_R_shin
+    100090: bn_R_thigh
+    100092: body
+    100094: bombomb
+    100096: Bone
+    100098: Bone 1
+    100100: Bone 2
+    100102: Bone 3
+    100104: Bone 4
+    100106: Bone 5
+    100108: Bone 6
+    100110: Bone 7
+    100112: Bone 8
+    100114: Bone.001
+    100116: Bone.001 1
+    100118: Bone.001 2
+    100120: Bone.001 3
+    100122: Bone.001 4
+    100124: Bone.001 5
+    100126: Bone.001 6
+    100128: Bone.001 7
+    100130: Bone.001 8
+    100132: Bone.002_L.001
+    100134: Bone.002_L.001 1
+    100136: Bone.002_L.001 2
+    100138: Bone.002_L.001 3
+    100140: Bone.002_L.001 4
+    100142: Bone.002_L.001 5
+    100144: Bone.002_L.001 6
+    100146: Bone.002_L.001 7
+    100148: Bone.002_L.001 8
+    100150: Bone.002_L.001_end
+    100152: Bone.002_L.001_end 1
+    100154: Bone.002_L.001_end 2
+    100156: Bone.002_L.001_end 3
+    100158: Bone.002_L.001_end 4
+    100160: Bone.002_L.001_end 5
+    100162: Bone.002_L.001_end 6
+    100164: Bone.002_L.001_end 7
+    100166: Bone.002_L.001_end 8
+    100168: Bone.002_R.001
+    100170: Bone.002_R.001 1
+    100172: Bone.002_R.001 2
+    100174: Bone.002_R.001 3
+    100176: Bone.002_R.001 4
+    100178: Bone.002_R.001 5
+    100180: Bone.002_R.001 6
+    100182: Bone.002_R.001 7
+    100184: Bone.002_R.001 8
+    100186: Bone.002_R.001_end
+    100188: Bone.002_R.001_end 1
+    100190: Bone.002_R.001_end 2
+    100192: Bone.002_R.001_end 3
+    100194: Bone.002_R.001_end 4
+    100196: Bone.002_R.001_end 5
+    100198: Bone.002_R.001_end 6
+    100200: Bone.002_R.001_end 7
+    100202: Bone.002_R.001_end 8
+    100204: Bone.003
+    100206: Bone.003 1
+    100208: Bone.003 2
+    100210: Bone.003 3
+    100212: Bone.003 4
+    100214: Bone.003 5
+    100216: Bone.003 6
+    100218: Bone.003 7
+    100220: Bone.003 8
+    100222: Bone.003_end
+    100224: Bone.003_end 1
+    100226: Bone.003_end 2
+    100228: Bone.003_end 3
+    100230: Bone.003_end 4
+    100232: Bone.003_end 5
+    100234: Bone.003_end 6
+    100236: Bone.003_end 7
+    100238: Bone.003_end 8
+    100240: Bone.004
+    100242: Bone.004 1
+    100244: Bone.004 2
+    100246: Bone.004 3
+    100248: Bone.004 4
+    100250: Bone.004 5
+    100252: Bone.004 6
+    100254: Bone.004 7
+    100256: Bone.004 8
+    100258: Bone.004_L.001
+    100260: Bone.004_L.001 1
+    100262: Bone.004_L.001 2
+    100264: Bone.004_L.001 3
+    100266: Bone.004_L.001 4
+    100268: Bone.004_L.001 5
+    100270: Bone.004_L.001 6
+    100272: Bone.004_L.001 7
+    100274: Bone.004_L.001 8
+    100276: Bone.004_L.001_end
+    100278: Bone.004_L.001_end 1
+    100280: Bone.004_L.001_end 2
+    100282: Bone.004_L.001_end 3
+    100284: Bone.004_L.001_end 4
+    100286: Bone.004_L.001_end 5
+    100288: Bone.004_L.001_end 6
+    100290: Bone.004_L.001_end 7
+    100292: Bone.004_L.001_end 8
+    100294: Bone.004_R.001
+    100296: Bone.004_R.001 1
+    100298: Bone.004_R.001 2
+    100300: Bone.004_R.001 3
+    100302: Bone.004_R.001 4
+    100304: Bone.004_R.001 5
+    100306: Bone.004_R.001 6
+    100308: Bone.004_R.001 7
+    100310: Bone.004_R.001 8
+    100312: Bone.004_R.001_end
+    100314: Bone.004_R.001_end 1
+    100316: Bone.004_R.001_end 2
+    100318: Bone.004_R.001_end 3
+    100320: Bone.004_R.001_end 4
+    100322: Bone.004_R.001_end 5
+    100324: Bone.004_R.001_end 6
+    100326: Bone.004_R.001_end 7
+    100328: Bone.004_R.001_end 8
+    100330: Bone.005
+    100332: Bone.005 1
+    100334: Bone.005 2
+    100336: Bone.005 3
+    100338: Bone.005 4
+    100340: Bone.005 5
+    100342: Bone.005 6
+    100344: Bone.005 7
+    100346: Bone.005 8
+    100348: Bone.006
+    100350: Bone.006 1
+    100352: Bone.006 2
+    100354: Bone.006 3
+    100356: Bone.006 4
+    100358: Bone.006 5
+    100360: Bone.006 6
+    100362: Bone.006 7
+    100364: Bone.006 8
+    100366: Bone.006_end
+    100368: Bone.006_end 1
+    100370: Bone.006_end 2
+    100372: Bone.006_end 3
+    100374: Bone.006_end 4
+    100376: Bone.006_end 5
+    100378: Bone.006_end 6
+    100380: Bone.006_end 7
+    100382: Bone.006_end 8
+    100384: Bone.008
+    100386: Bone.008 1
+    100388: Bone.008 2
+    100390: Bone.008 3
+    100392: Bone.008 4
+    100394: Bone.008 5
+    100396: Bone.008 6
+    100398: Bone.008 7
+    100400: Bone.008 8
+    100402: Bone.008_end
+    100404: Bone.008_end 1
+    100406: Bone.008_end 2
+    100408: Bone.008_end 3
+    100410: Bone.008_end 4
+    100412: Bone.008_end 5
+    100414: Bone.008_end 6
+    100416: Bone.008_end 7
+    100418: Bone.008_end 8
+    100420: Bone.010
+    100422: Bone.010 1
+    100424: Bone.010 2
+    100426: Bone.010 3
+    100428: Bone.010 4
+    100430: Bone.010 5
+    100432: Bone.010 6
+    100434: Bone.010 7
+    100436: Bone.010 8
+    100438: Bone.010_end
+    100440: Bone.010_end 1
+    100442: Bone.010_end 2
+    100444: Bone.010_end 3
+    100446: Bone.010_end 4
+    100448: Bone.010_end 5
+    100450: Bone.010_end 6
+    100452: Bone.010_end 7
+    100454: Bone.010_end 8
+    100456: Bone.012
+    100458: Bone.012 1
+    100460: Bone.012 2
+    100462: Bone.012 3
+    100464: Bone.012 4
+    100466: Bone.012 5
+    100468: Bone.012 6
+    100470: Bone.012 7
+    100472: Bone.012 8
+    100474: Bone.012_end
+    100476: Bone.012_end 1
+    100478: Bone.012_end 2
+    100480: Bone.012_end 3
+    100482: Bone.012_end 4
+    100484: Bone.012_end 5
+    100486: Bone.012_end 6
+    100488: Bone.012_end 7
+    100490: Bone.012_end 8
+    100492: Bone_L.001
+    100494: Bone_L.001 1
+    100496: Bone_L.001 2
+    100498: Bone_L.001 3
+    100500: Bone_L.001 4
+    100502: Bone_L.001 5
+    100504: Bone_L.001 6
+    100506: Bone_L.001 7
+    100508: Bone_L.001 8
+    100510: Bone_L.001_end
+    100512: Bone_L.001_end 1
+    100514: Bone_L.001_end 2
+    100516: Bone_L.001_end 3
+    100518: Bone_L.001_end 4
+    100520: Bone_L.001_end 5
+    100522: Bone_L.001_end 6
+    100524: Bone_L.001_end 7
+    100526: Bone_L.001_end 8
+    100528: Bone_R.001
+    100530: Bone_R.001 1
+    100532: Bone_R.001 2
+    100534: Bone_R.001 3
+    100536: Bone_R.001 4
+    100538: Bone_R.001 5
+    100540: Bone_R.001 6
+    100542: Bone_R.001 7
+    100544: Bone_R.001 8
+    100546: Bone_R.001_end
+    100548: Bone_R.001_end 1
+    100550: Bone_R.001_end 2
+    100552: Bone_R.001_end 3
+    100554: Bone_R.001_end 4
+    100556: Bone_R.001_end 5
+    100558: Bone_R.001_end 6
+    100560: Bone_R.001_end 7
+    100562: Bone_R.001_end 8
+    100564: BowserMask
+    100566: Box001
+    100568: bubble
+    100570: bubble 1
+    100572: bubble 2
+    100574: bubble 3
+    100576: bubble 4
+    100578: bubble 5
+    100580: bubble 6
+    100582: bubble 7
+    100584: bubble 8
+    100586: bubble_end
+    100588: bubble_end 1
+    100590: bubble_end 2
+    100592: bubble_end 3
+    100594: bubble_end 4
+    100596: bubble_end 5
+    100598: bubble_end 6
+    100600: bubble_end 7
+    100602: bubble_end 8
+    100604: ButtonTitle
+    100606: ButtonTitle 1
+    100608: ButtonTitle 10
+    100610: ButtonTitle 11
+    100612: ButtonTitle 2
+    100614: ButtonTitle 3
+    100616: ButtonTitle 4
+    100618: ButtonTitle 5
+    100620: ButtonTitle 6
+    100622: ButtonTitle 7
+    100624: ButtonTitle 8
+    100626: ButtonTitle 9
+    100628: CameraDeadZone
+    100630: Canvas_UI
+    100632: CircleShadowPlane
+    100634: CircleShadowPlane 1
+    100636: CircleShadowPlane 2
+    100638: CircleShadowPlane 3
+    100640: Coin
+    100642: Coin (1)
+    100644: Coin (2)
+    100646: Coin (4)
+    100648: Coin 1
+    100650: Coin 2
+    100652: Coin 3
+    100654: Coin 4
+    100656: CoinIcon
+    100658: CoinIcon 1
+    100660: CoinIcon 2
+    100662: Coins
+    100664: Coins (1)
+    100666: Coins (1) 1
+    100668: CoinsFirst
+    100670: CoinsFirst 1
+    100672: CoinsSecond
+    100674: CoinsSecond 1
+    100676: CoinsThird
+    100678: CoinX
+    100680: CoinX 1
+    100682: CoinX 2
+    100684: CollisionMesh
+    100686: Component#1
+    100688: Component#1 1
+    100690: Component#1 1 1
+    100692: Component#1 1 1 1
+    100694: Component#1 1 2
+    100696: Component#1 1 3
+    100698: Component#1 2
+    100700: Component#1 2 1
+    100702: Component#1 2 1 1
+    100704: Component#1 2 2
+    100706: Component#1 2 3
+    100708: Component#1 3
+    100710: Component#1 3 1
+    100712: Component#1 3 1 1
+    100714: Component#1 3 2
+    100716: Component#1 3 3
+    100718: Controller
+    100720: ControllerPresets
+    100722: ControlsMenu
+    100724: Crouch
+    100726: cruscarp
+    100728: cruscarp (1)
+    100730: cruscarp (1) 1
+    100732: cruscarp (1) 2
+    100734: cruscarp (1) 3
+    100736: cruscarp (1) 4
+    100738: cruscarp (1) 5
+    100740: cruscarp (1) 6
+    100742: cruscarp (1) 7
+    100744: cruscarp (1) 8
+    100746: cruscarp (2)
+    100748: cruscarp (3)
+    100750: cruscarp (4)
+    100752: cruscarp (5)
+    100754: cruscarp (6)
+    100756: cruscarp (7)
+    100758: cruscarp (8)
+    100760: cruscarp 1
+    100762: cruscarp 2
+    100764: cruscarp 3
+    100766: cruscarp 4
+    100768: cruscarp 5
+    100770: cruscarp 6
+    100772: cruscarp 7
+    100774: cruscarp 8
+    100776: cruscarp 9
+    100778: cruscarp_skel
+    100780: cruscarp_skel 1
+    100782: cruscarp_skel 2
+    100784: cruscarp_skel 3
+    100786: cruscarp_skel 4
+    100788: cruscarp_skel 5
+    100790: cruscarp_skel 6
+    100792: cruscarp_skel 7
+    100794: cruscarp_skel 8
+    100796: Ctrl_chest
+    100798: Ctrl_COG
+    100800: Ctrl_Core
+    100802: Ctrl_head
+    100804: Ctrl_hip
+    100806: Ctrl_Knee_L
+    100808: Ctrl_Knee_R
+    100810: Ctrl_L_Elbow
+    100812: Ctrl_L_Hand
+    100814: Ctrl_Leg_L
+    100816: Ctrl_Leg_R
+    100818: Ctrl_neck
+    100820: Ctrl_R_Elbow
+    100822: Ctrl_R_Hand
+    100824: Cube
+    100826: Cube (1)
+    100828: Cube (1) 1
+    100830: Cube (1) 2
+    100832: Cube (1) 3
+    100834: Cube (1) 4
+    100836: Cube (1) 5
+    100838: Cube (2)
+    100840: Cube (2) 1
+    100842: Cube (2) 2
+    100844: Cube (2) 3
+    100846: Cube (3)
+    100848: Cube (3) 1
+    100850: Cube (3) 2
+    100852: Cube (3) 3
+    100854: Cube (4)
+    100856: Cube 1
+    100858: Cube 2
+    100860: Cube 3
+    100862: Cube 4
+    100864: Cube 5
+    100866: Cube 6
+    100868: Cylinder
+    100870: Cylinder (1)
+    100872: Cylinder (1) 1
+    100874: Cylinder (1) 2
+    100876: Cylinder (1) 3
+    100878: Cylinder (1) 4
+    100880: Cylinder (1) 5
+    100882: Cylinder (1) 6
+    100884: Cylinder (1) 7
+    100886: Cylinder (10)
+    100888: Cylinder (10) 1
+    100890: Cylinder (11)
+    100892: Cylinder (11) 1
+    100894: Cylinder (12)
+    100896: Cylinder (12) 1
+    100898: Cylinder (13)
+    100900: Cylinder (13) 1
+    100902: Cylinder (14)
+    100904: Cylinder (14) 1
+    100906: Cylinder (15)
+    100908: Cylinder (15) 1
+    100910: Cylinder (16)
+    100912: Cylinder (16) 1
+    100914: Cylinder (17)
+    100916: Cylinder (17) 1
+    100918: Cylinder (18)
+    100920: Cylinder (18) 1
+    100922: Cylinder (2)
+    100924: Cylinder (2) 1
+    100926: Cylinder (2) 2
+    100928: Cylinder (2) 3
+    100930: Cylinder (3)
+    100932: Cylinder (3) 1
+    100934: Cylinder (3) 2
+    100936: Cylinder (3) 3
+    100938: Cylinder (4)
+    100940: Cylinder (4) 1
+    100942: Cylinder (4) 2
+    100944: Cylinder (4) 3
+    100946: Cylinder (4) 4
+    100948: Cylinder (5)
+    100950: Cylinder (5) 1
+    100952: Cylinder (5) 2
+    100954: Cylinder (6)
+    100956: Cylinder (6) 1
+    100958: Cylinder (6) 2
+    100960: Cylinder (7)
+    100962: Cylinder (7) 1
+    100964: Cylinder (7) 2
+    100966: Cylinder (8)
+    100968: Cylinder (8) 1
+    100970: Cylinder (9)
+    100972: Cylinder (9) 1
+    100974: Cylinder 1
+    100976: DamageDisc
+    100978: DamageDiscOverlay
+    100980: DeadZone
+    100982: DeadZone 1
+    100984: Directional light
+    100986: Directional light (1)
+    100988: Dolphin fountain at the Sterns Wharf
+    100990: DOLPHIN#1
+    100992: DOLPHIN#1 1
+    100994: face
+    100996: Fill
+    100998: Fill 1
+    101000: Fill Area
+    101002: Fill Area 1
+    101004: Framerate
+    101006: GameMaster
+    101008: GameObject
+    101010: GameplayUI
+    101012: Global Control
+    101014: Gloss
+    101016: glove1
+    101018: glove2
+    101020: Grate
+    101022: Grate (1)
+    101024: Group 10
+    101026: Group 11
+    101028: Group 9
+    101030: hair
+    101032: Handle
+    101034: Handle 1
+    101036: Handle Slide Area
+    101038: Handle Slide Area 1
+    101040: hat
+    101042: HeadCarving
+    101044: HealthDisc
+    101046: helper_controller
+    101048: helper_controllersphere
+    101050: IK Chain001
+    101052: IK Chain002
+    101054: IK_L_Hand
+    101056: IK_R_Hand
+    101058: jolly room
+    101060: Jump
+    101062: kelp
+    101064: kelp 1
+    101066: kelp 1 1
+    101068: kelp 1 1 1
+    101070: kelp 1 2
+    101072: kelp 1 3
+    101074: kelp 2
+    101076: kelp 2 1
+    101078: kelp 2 1 1
+    101080: kelp 2 2
+    101082: kelp 2 3
+    101084: kelp 3
+    101086: kelp 3 1
+    101088: kelp 3 1 1
+    101090: kelp 3 2
+    101092: kelp 3 3
+    101094: kelp 4
+    101096: kelp 4 1
+    101098: kelp 4 2
+    101100: kelp 4 3
+    101102: kelp 5
+    101104: kelp 5 1
+    101106: kelp 5 2
+    101108: kelp 5 3
+    101110: kelp 6
+    101112: kelp 6 1
+    101114: kelp 6 2
+    101116: kelp 6 3
+    101118: kelp 7
+    101120: kelp 7 1
+    101122: kelp 7 2
+    101124: kelp 7 3
+    101126: kelp 8
+    101128: kelp 8 1
+    101130: kelp 8 2
+    101132: kelp 8 3
+    101134: kelp 9
+    101136: kelp 9 1
+    101138: kelp 9 2
+    101140: kelp 9 3
+    101142: Keyboard
+    101144: leaf single
+    101146: leaf single 1
+    101148: leaf single 1 1
+    101150: leaf single 1 1 1
+    101152: leaf single 1 2
+    101154: leaf single 1 3
+    101156: leaf single 10
+    101158: leaf single 10 1
+    101160: leaf single 10 2
+    101162: leaf single 10 3
+    101164: leaf single 11
+    101166: leaf single 11 1
+    101168: leaf single 11 2
+    101170: leaf single 11 3
+    101172: leaf single 2
+    101174: leaf single 2 1
+    101176: leaf single 2 1 1
+    101178: leaf single 2 2
+    101180: leaf single 2 3
+    101182: leaf single 3
+    101184: leaf single 3 1
+    101186: leaf single 3 1 1
+    101188: leaf single 3 2
+    101190: leaf single 3 3
+    101192: leaf single 4
+    101194: leaf single 4 1
+    101196: leaf single 4 2
+    101198: leaf single 4 3
+    101200: leaf single 5
+    101202: leaf single 5 1
+    101204: leaf single 5 2
+    101206: leaf single 5 3
+    101208: leaf single 6
+    101210: leaf single 6 1
+    101212: leaf single 6 2
+    101214: leaf single 6 3
+    101216: leaf single 7
+    101218: leaf single 7 1
+    101220: leaf single 7 2
+    101222: leaf single 7 3
+    101224: leaf single 8
+    101226: leaf single 8 1
+    101228: leaf single 8 2
+    101230: leaf single 8 3
+    101232: leaf single 9
+    101234: leaf single 9 1
+    101236: leaf single 9 2
+    101238: leaf single 9 3
+    101240: lionfish
+    101242: lionfish 1
+    101244: lionfish 2
+    101246: lionfish 3
+    101248: MainInputs
+    101250: MarioCamera
+    101252: Missing Prefab
+    101254: MoveBackward
+    101256: MoveBackward 1
+    101258: MoveForward
+    101260: MoveForward 1
+    101262: MoveLeft
+    101264: MoveLeft 1
+    101266: MovementDeadZone
+    101268: MovementMarker
+    101270: MovementMarker 1
+    101272: MoveRight
+    101274: MoveRight 1
+    101276: MoveUpButton
+    101278: MoveUpButton 1
+    101280: MoveUpButton 10
+    101282: MoveUpButton 11
+    101284: MoveUpButton 2
+    101286: MoveUpButton 3
+    101288: MoveUpButton 4
+    101290: MoveUpButton 5
+    101292: MoveUpButton 6
+    101294: MoveUpButton 7
+    101296: MoveUpButton 8
+    101298: MoveUpButton 9
+    101300: New Sprite
+    101302: New Sprite (1)
+    101304: New Sprite (3)
+    101306: particle
+    101308: particle (1)
+    101310: particle (2)
+    101312: Pause
+    101314: PauseCamera
+    101316: peach
+    101318: Plane
+    101320: Point light
+    101322: Point light 1
+    101324: Point light 2
+    101326: Point light 3
+    101328: PointCtrl_hand_L
+    101330: PointCtrl_hand_R
+    101332: PointCtrl_head
+    101334: PointCtrl_Hip
+    101336: PointCtrl_neck
+    101338: PointCtrl_Spine
+    101340: PointH_L_Ankle
+    101342: PointH_L_Toe
+    101344: PointH_R_Ankle
+    101346: PointH_R_Toe
+    101348: post
+    101350: post 1
+    101352: post 1 1
+    101354: post 1 1 1
+    101356: post 1 10
+    101358: post 1 11
+    101360: post 1 12
+    101362: post 1 2
+    101364: post 1 3
+    101366: post 1 4
+    101368: post 1 5
+    101370: post 1 6
+    101372: post 1 7
+    101374: post 1 8
+    101376: post 1 9
+    101378: post 10
+    101380: post 11
+    101382: post 2
+    101384: post 3
+    101386: post 4
+    101388: post 5
+    101390: post 6
+    101392: post 7
+    101394: post 8
+    101396: post 9
+    101398: Powerstar
+    101400: PresetsTitle
+    101402: pupil1
+    101404: pupil2
+    101406: QuitButton
+    101408: railing 1
+    101410: railing 1 1
+    101412: railing 1 10
+    101414: railing 1 11
+    101416: railing 1 12
+    101418: railing 1 13
+    101420: railing 1 14
+    101422: railing 1 15
+    101424: railing 1 2
+    101426: railing 1 3
+    101428: railing 1 4
+    101430: railing 1 5
+    101432: railing 1 6
+    101434: railing 1 7
+    101436: railing 1 8
+    101438: railing 1 9
+    101440: railing+1
+    101442: railing+1 (1)
+    101444: railing+1 (10)
+    101446: railing+1 (11)
+    101448: railing+1 (12)
+    101450: railing+1 (13)
+    101452: railing+1 (14)
+    101454: railing+1 (15)
+    101456: railing+1 (16)
+    101458: railing+1 (2)
+    101460: railing+1 (3)
+    101462: railing+1 (4)
+    101464: railing+1 (5)
+    101466: railing+1 (6)
+    101468: railing+1 (7)
+    101470: railing+1 (8)
+    101472: railing+1 (9)
+    101474: RedCoins
+    101476: RedCoinsThird
+    101478: Reflection Probe
+    101480: RunSmokeEffect
+    101482: Santa Barbara Dolphin
+    101484: ScaleAnimator
+    101486: seaweed
+    101488: seaweed 1
+    101490: seaweed 1 1
+    101492: seaweed 1 1 1
+    101494: seaweed 1 2
+    101496: seaweed 1 3
+    101498: seaweed 2
+    101500: seaweed 2 1
+    101502: seaweed 2 1 1
+    101504: seaweed 2 2
+    101506: seaweed 2 3
+    101508: seaweed 3
+    101510: seaweed 3 1
+    101512: seaweed 3 1 1
+    101514: seaweed 3 2
+    101516: seaweed 3 3
+    101518: Slider
+    101520: Slider 1
+    101522: star
+    101524: star (1)
+    101526: star (1) 1
+    101528: StartPosition
+    101530: Strike
+    101532: Text
+    101534: Text 1
+    101536: Text 10
+    101538: Text 11
+    101540: Text 12
+    101542: Text 13
+    101544: Text 14
+    101546: Text 15
+    101548: Text 16
+    101550: Text 2
+    101552: Text 3
+    101554: Text 4
+    101556: Text 5
+    101558: Text 6
+    101560: Text 7
+    101562: Text 8
+    101564: Text 9
+    101566: untitled
+    101568: Untitled (10)
+    101570: Untitled (11)
+    101572: Untitled (12)
+    101574: Untitled (13)
+    101576: Untitled (14)
+    101578: Untitled (15)
+    101580: Untitled (3)
+    101582: Untitled (7)
+    101584: Untitled (8)
+    101586: weed of the sea
+    101588: weed of the sea 1
+    101590: weed of the sea 1 1
+    101592: weed of the sea 1 1 1
+    101594: weed of the sea 1 2
+    101596: weed of the sea 1 3
+    101598: weed of the sea 10
+    101600: weed of the sea 10 1
+    101602: weed of the sea 10 2
+    101604: weed of the sea 10 3
+    101606: weed of the sea 11
+    101608: weed of the sea 11 1
+    101610: weed of the sea 11 2
+    101612: weed of the sea 11 3
+    101614: weed of the sea 12
+    101616: weed of the sea 12 1
+    101618: weed of the sea 12 2
+    101620: weed of the sea 12 3
+    101622: weed of the sea 13
+    101624: weed of the sea 13 1
+    101626: weed of the sea 13 2
+    101628: weed of the sea 13 3
+    101630: weed of the sea 14
+    101632: weed of the sea 14 1
+    101634: weed of the sea 14 2
+    101636: weed of the sea 14 3
+    101638: weed of the sea 15
+    101640: weed of the sea 15 1
+    101642: weed of the sea 15 2
+    101644: weed of the sea 15 3
+    101646: weed of the sea 16
+    101648: weed of the sea 16 1
+    101650: weed of the sea 16 2
+    101652: weed of the sea 16 3
+    101654: weed of the sea 17
+    101656: weed of the sea 17 1
+    101658: weed of the sea 17 2
+    101660: weed of the sea 17 3
+    101662: weed of the sea 18
+    101664: weed of the sea 18 1
+    101666: weed of the sea 18 2
+    101668: weed of the sea 18 3
+    101670: weed of the sea 19
+    101672: weed of the sea 19 1
+    101674: weed of the sea 19 2
+    101676: weed of the sea 19 3
+    101678: weed of the sea 2
+    101680: weed of the sea 2 1
+    101682: weed of the sea 2 1 1
+    101684: weed of the sea 2 2
+    101686: weed of the sea 2 3
+    101688: weed of the sea 20
+    101690: weed of the sea 20 1
+    101692: weed of the sea 20 2
+    101694: weed of the sea 20 3
+    101696: weed of the sea 21
+    101698: weed of the sea 21 1
+    101700: weed of the sea 21 2
+    101702: weed of the sea 21 3
+    101704: weed of the sea 22
+    101706: weed of the sea 22 1
+    101708: weed of the sea 22 2
+    101710: weed of the sea 22 3
+    101712: weed of the sea 23
+    101714: weed of the sea 23 1
+    101716: weed of the sea 23 2
+    101718: weed of the sea 23 3
+    101720: weed of the sea 3
+    101722: weed of the sea 3 1
+    101724: weed of the sea 3 1 1
+    101726: weed of the sea 3 2
+    101728: weed of the sea 3 3
+    101730: weed of the sea 4
+    101732: weed of the sea 4 1
+    101734: weed of the sea 4 2
+    101736: weed of the sea 4 3
+    101738: weed of the sea 5
+    101740: weed of the sea 5 1
+    101742: weed of the sea 5 2
+    101744: weed of the sea 5 3
+    101746: weed of the sea 6
+    101748: weed of the sea 6 1
+    101750: weed of the sea 6 2
+    101752: weed of the sea 6 3
+    101754: weed of the sea 7
+    101756: weed of the sea 7 1
+    101758: weed of the sea 7 2
+    101760: weed of the sea 7 3
+    101762: weed of the sea 8
+    101764: weed of the sea 8 1
+    101766: weed of the sea 8 2
+    101768: weed of the sea 8 3
+    101770: weed of the sea 9
+    101772: weed of the sea 9 1
+    101774: weed of the sea 9 2
+    101776: weed of the sea 9 3
+    101778: WhiteMatte
+    101780: whompsroom
+    400000: //RootNode
+    400002: r0
+    400004: r0-node
+    400006: r1
+    400008: r1-node
+    400010: r2
+    400012: r2-node
+    400014: r3
+    400016: r3-node
+    400018: r4
+    400020: r4-node
+    400022: r5
+    400024: r5-node
+    400026: r6
+    400028: r6-node
+    400030: r7
+    400032: r7-node
+    400034: AnalogCircleTest
+    400036: AnalogCircleTest 1
+    400038: Ankle_L_IK
+    400040: Ankle_R_IK
+    400042: Aquarium1
+    400044: Aquarium1 (1)
+    400046: Aquarium1 (2)
+    400048: Aquarium1 (3)
+    400050: AuxInputs
+    400052: BackButton
+    400054: Background
+    400056: Background 1
+    400058: BlackMatte
+    400060: bn_chest
+    400062: bn_head
+    400064: bn_hip
+    400066: bn_L_armlower
+    400068: bn_L_armupper
+    400070: bn_L_foot
+    400072: bn_L_hand
+    400074: bn_L_shin
+    400076: bn_L_thigh
+    400078: bn_neck
+    400080: bn_R_armlower
+    400082: bn_R_armupper
+    400084: bn_R_foot
+    400086: bn_R_hand
+    400088: bn_R_shin
+    400090: bn_R_thigh
+    400092: body
+    400094: bombomb
+    400096: Bone
+    400098: Bone 1
+    400100: Bone 2
+    400102: Bone 3
+    400104: Bone 4
+    400106: Bone 5
+    400108: Bone 6
+    400110: Bone 7
+    400112: Bone 8
+    400114: Bone.001
+    400116: Bone.001 1
+    400118: Bone.001 2
+    400120: Bone.001 3
+    400122: Bone.001 4
+    400124: Bone.001 5
+    400126: Bone.001 6
+    400128: Bone.001 7
+    400130: Bone.001 8
+    400132: Bone.002_L.001
+    400134: Bone.002_L.001 1
+    400136: Bone.002_L.001 2
+    400138: Bone.002_L.001 3
+    400140: Bone.002_L.001 4
+    400142: Bone.002_L.001 5
+    400144: Bone.002_L.001 6
+    400146: Bone.002_L.001 7
+    400148: Bone.002_L.001 8
+    400150: Bone.002_L.001_end
+    400152: Bone.002_L.001_end 1
+    400154: Bone.002_L.001_end 2
+    400156: Bone.002_L.001_end 3
+    400158: Bone.002_L.001_end 4
+    400160: Bone.002_L.001_end 5
+    400162: Bone.002_L.001_end 6
+    400164: Bone.002_L.001_end 7
+    400166: Bone.002_L.001_end 8
+    400168: Bone.002_R.001
+    400170: Bone.002_R.001 1
+    400172: Bone.002_R.001 2
+    400174: Bone.002_R.001 3
+    400176: Bone.002_R.001 4
+    400178: Bone.002_R.001 5
+    400180: Bone.002_R.001 6
+    400182: Bone.002_R.001 7
+    400184: Bone.002_R.001 8
+    400186: Bone.002_R.001_end
+    400188: Bone.002_R.001_end 1
+    400190: Bone.002_R.001_end 2
+    400192: Bone.002_R.001_end 3
+    400194: Bone.002_R.001_end 4
+    400196: Bone.002_R.001_end 5
+    400198: Bone.002_R.001_end 6
+    400200: Bone.002_R.001_end 7
+    400202: Bone.002_R.001_end 8
+    400204: Bone.003
+    400206: Bone.003 1
+    400208: Bone.003 2
+    400210: Bone.003 3
+    400212: Bone.003 4
+    400214: Bone.003 5
+    400216: Bone.003 6
+    400218: Bone.003 7
+    400220: Bone.003 8
+    400222: Bone.003_end
+    400224: Bone.003_end 1
+    400226: Bone.003_end 2
+    400228: Bone.003_end 3
+    400230: Bone.003_end 4
+    400232: Bone.003_end 5
+    400234: Bone.003_end 6
+    400236: Bone.003_end 7
+    400238: Bone.003_end 8
+    400240: Bone.004
+    400242: Bone.004 1
+    400244: Bone.004 2
+    400246: Bone.004 3
+    400248: Bone.004 4
+    400250: Bone.004 5
+    400252: Bone.004 6
+    400254: Bone.004 7
+    400256: Bone.004 8
+    400258: Bone.004_L.001
+    400260: Bone.004_L.001 1
+    400262: Bone.004_L.001 2
+    400264: Bone.004_L.001 3
+    400266: Bone.004_L.001 4
+    400268: Bone.004_L.001 5
+    400270: Bone.004_L.001 6
+    400272: Bone.004_L.001 7
+    400274: Bone.004_L.001 8
+    400276: Bone.004_L.001_end
+    400278: Bone.004_L.001_end 1
+    400280: Bone.004_L.001_end 2
+    400282: Bone.004_L.001_end 3
+    400284: Bone.004_L.001_end 4
+    400286: Bone.004_L.001_end 5
+    400288: Bone.004_L.001_end 6
+    400290: Bone.004_L.001_end 7
+    400292: Bone.004_L.001_end 8
+    400294: Bone.004_R.001
+    400296: Bone.004_R.001 1
+    400298: Bone.004_R.001 2
+    400300: Bone.004_R.001 3
+    400302: Bone.004_R.001 4
+    400304: Bone.004_R.001 5
+    400306: Bone.004_R.001 6
+    400308: Bone.004_R.001 7
+    400310: Bone.004_R.001 8
+    400312: Bone.004_R.001_end
+    400314: Bone.004_R.001_end 1
+    400316: Bone.004_R.001_end 2
+    400318: Bone.004_R.001_end 3
+    400320: Bone.004_R.001_end 4
+    400322: Bone.004_R.001_end 5
+    400324: Bone.004_R.001_end 6
+    400326: Bone.004_R.001_end 7
+    400328: Bone.004_R.001_end 8
+    400330: Bone.005
+    400332: Bone.005 1
+    400334: Bone.005 2
+    400336: Bone.005 3
+    400338: Bone.005 4
+    400340: Bone.005 5
+    400342: Bone.005 6
+    400344: Bone.005 7
+    400346: Bone.005 8
+    400348: Bone.006
+    400350: Bone.006 1
+    400352: Bone.006 2
+    400354: Bone.006 3
+    400356: Bone.006 4
+    400358: Bone.006 5
+    400360: Bone.006 6
+    400362: Bone.006 7
+    400364: Bone.006 8
+    400366: Bone.006_end
+    400368: Bone.006_end 1
+    400370: Bone.006_end 2
+    400372: Bone.006_end 3
+    400374: Bone.006_end 4
+    400376: Bone.006_end 5
+    400378: Bone.006_end 6
+    400380: Bone.006_end 7
+    400382: Bone.006_end 8
+    400384: Bone.008
+    400386: Bone.008 1
+    400388: Bone.008 2
+    400390: Bone.008 3
+    400392: Bone.008 4
+    400394: Bone.008 5
+    400396: Bone.008 6
+    400398: Bone.008 7
+    400400: Bone.008 8
+    400402: Bone.008_end
+    400404: Bone.008_end 1
+    400406: Bone.008_end 2
+    400408: Bone.008_end 3
+    400410: Bone.008_end 4
+    400412: Bone.008_end 5
+    400414: Bone.008_end 6
+    400416: Bone.008_end 7
+    400418: Bone.008_end 8
+    400420: Bone.010
+    400422: Bone.010 1
+    400424: Bone.010 2
+    400426: Bone.010 3
+    400428: Bone.010 4
+    400430: Bone.010 5
+    400432: Bone.010 6
+    400434: Bone.010 7
+    400436: Bone.010 8
+    400438: Bone.010_end
+    400440: Bone.010_end 1
+    400442: Bone.010_end 2
+    400444: Bone.010_end 3
+    400446: Bone.010_end 4
+    400448: Bone.010_end 5
+    400450: Bone.010_end 6
+    400452: Bone.010_end 7
+    400454: Bone.010_end 8
+    400456: Bone.012
+    400458: Bone.012 1
+    400460: Bone.012 2
+    400462: Bone.012 3
+    400464: Bone.012 4
+    400466: Bone.012 5
+    400468: Bone.012 6
+    400470: Bone.012 7
+    400472: Bone.012 8
+    400474: Bone.012_end
+    400476: Bone.012_end 1
+    400478: Bone.012_end 2
+    400480: Bone.012_end 3
+    400482: Bone.012_end 4
+    400484: Bone.012_end 5
+    400486: Bone.012_end 6
+    400488: Bone.012_end 7
+    400490: Bone.012_end 8
+    400492: Bone_L.001
+    400494: Bone_L.001 1
+    400496: Bone_L.001 2
+    400498: Bone_L.001 3
+    400500: Bone_L.001 4
+    400502: Bone_L.001 5
+    400504: Bone_L.001 6
+    400506: Bone_L.001 7
+    400508: Bone_L.001 8
+    400510: Bone_L.001_end
+    400512: Bone_L.001_end 1
+    400514: Bone_L.001_end 2
+    400516: Bone_L.001_end 3
+    400518: Bone_L.001_end 4
+    400520: Bone_L.001_end 5
+    400522: Bone_L.001_end 6
+    400524: Bone_L.001_end 7
+    400526: Bone_L.001_end 8
+    400528: Bone_R.001
+    400530: Bone_R.001 1
+    400532: Bone_R.001 2
+    400534: Bone_R.001 3
+    400536: Bone_R.001 4
+    400538: Bone_R.001 5
+    400540: Bone_R.001 6
+    400542: Bone_R.001 7
+    400544: Bone_R.001 8
+    400546: Bone_R.001_end
+    400548: Bone_R.001_end 1
+    400550: Bone_R.001_end 2
+    400552: Bone_R.001_end 3
+    400554: Bone_R.001_end 4
+    400556: Bone_R.001_end 5
+    400558: Bone_R.001_end 6
+    400560: Bone_R.001_end 7
+    400562: Bone_R.001_end 8
+    400564: BowserMask
+    400566: Box001
+    400568: bubble
+    400570: bubble 1
+    400572: bubble 2
+    400574: bubble 3
+    400576: bubble 4
+    400578: bubble 5
+    400580: bubble 6
+    400582: bubble 7
+    400584: bubble 8
+    400586: bubble_end
+    400588: bubble_end 1
+    400590: bubble_end 2
+    400592: bubble_end 3
+    400594: bubble_end 4
+    400596: bubble_end 5
+    400598: bubble_end 6
+    400600: bubble_end 7
+    400602: bubble_end 8
+    400604: ButtonTitle
+    400606: ButtonTitle 1
+    400608: ButtonTitle 10
+    400610: ButtonTitle 11
+    400612: ButtonTitle 2
+    400614: ButtonTitle 3
+    400616: ButtonTitle 4
+    400618: ButtonTitle 5
+    400620: ButtonTitle 6
+    400622: ButtonTitle 7
+    400624: ButtonTitle 8
+    400626: ButtonTitle 9
+    400628: CameraDeadZone
+    400630: Canvas_UI
+    400632: CircleShadowPlane
+    400634: CircleShadowPlane 1
+    400636: CircleShadowPlane 2
+    400638: CircleShadowPlane 3
+    400640: Coin
+    400642: Coin (1)
+    400644: Coin (2)
+    400646: Coin (4)
+    400648: Coin 1
+    400650: Coin 2
+    400652: Coin 3
+    400654: Coin 4
+    400656: CoinIcon
+    400658: CoinIcon 1
+    400660: CoinIcon 2
+    400662: Coins
+    400664: Coins (1)
+    400666: Coins (1) 1
+    400668: CoinsFirst
+    400670: CoinsFirst 1
+    400672: CoinsSecond
+    400674: CoinsSecond 1
+    400676: CoinsThird
+    400678: CoinX
+    400680: CoinX 1
+    400682: CoinX 2
+    400684: CollisionMesh
+    400686: Component#1
+    400688: Component#1 1
+    400690: Component#1 1 1
+    400692: Component#1 1 1 1
+    400694: Component#1 1 2
+    400696: Component#1 1 3
+    400698: Component#1 2
+    400700: Component#1 2 1
+    400702: Component#1 2 1 1
+    400704: Component#1 2 2
+    400706: Component#1 2 3
+    400708: Component#1 3
+    400710: Component#1 3 1
+    400712: Component#1 3 1 1
+    400714: Component#1 3 2
+    400716: Component#1 3 3
+    400718: Controller
+    400720: ControllerPresets
+    400722: ControlsMenu
+    400724: Crouch
+    400726: cruscarp
+    400728: cruscarp (1)
+    400730: cruscarp (1) 1
+    400732: cruscarp (1) 2
+    400734: cruscarp (1) 3
+    400736: cruscarp (1) 4
+    400738: cruscarp (1) 5
+    400740: cruscarp (1) 6
+    400742: cruscarp (1) 7
+    400744: cruscarp (1) 8
+    400746: cruscarp (2)
+    400748: cruscarp (3)
+    400750: cruscarp (4)
+    400752: cruscarp (5)
+    400754: cruscarp (6)
+    400756: cruscarp (7)
+    400758: cruscarp (8)
+    400760: cruscarp 1
+    400762: cruscarp 2
+    400764: cruscarp 3
+    400766: cruscarp 4
+    400768: cruscarp 5
+    400770: cruscarp 6
+    400772: cruscarp 7
+    400774: cruscarp 8
+    400776: cruscarp 9
+    400778: cruscarp_skel
+    400780: cruscarp_skel 1
+    400782: cruscarp_skel 2
+    400784: cruscarp_skel 3
+    400786: cruscarp_skel 4
+    400788: cruscarp_skel 5
+    400790: cruscarp_skel 6
+    400792: cruscarp_skel 7
+    400794: cruscarp_skel 8
+    400796: Ctrl_chest
+    400798: Ctrl_COG
+    400800: Ctrl_Core
+    400802: Ctrl_head
+    400804: Ctrl_hip
+    400806: Ctrl_Knee_L
+    400808: Ctrl_Knee_R
+    400810: Ctrl_L_Elbow
+    400812: Ctrl_L_Hand
+    400814: Ctrl_Leg_L
+    400816: Ctrl_Leg_R
+    400818: Ctrl_neck
+    400820: Ctrl_R_Elbow
+    400822: Ctrl_R_Hand
+    400824: Cube
+    400826: Cube (1)
+    400828: Cube (1) 1
+    400830: Cube (1) 2
+    400832: Cube (1) 3
+    400834: Cube (1) 4
+    400836: Cube (1) 5
+    400838: Cube (2)
+    400840: Cube (2) 1
+    400842: Cube (2) 2
+    400844: Cube (2) 3
+    400846: Cube (3)
+    400848: Cube (3) 1
+    400850: Cube (3) 2
+    400852: Cube (3) 3
+    400854: Cube (4)
+    400856: Cube 1
+    400858: Cube 2
+    400860: Cube 3
+    400862: Cube 4
+    400864: Cube 5
+    400866: Cube 6
+    400868: Cylinder
+    400870: Cylinder (1)
+    400872: Cylinder (1) 1
+    400874: Cylinder (1) 2
+    400876: Cylinder (1) 3
+    400878: Cylinder (1) 4
+    400880: Cylinder (1) 5
+    400882: Cylinder (1) 6
+    400884: Cylinder (1) 7
+    400886: Cylinder (10)
+    400888: Cylinder (10) 1
+    400890: Cylinder (11)
+    400892: Cylinder (11) 1
+    400894: Cylinder (12)
+    400896: Cylinder (12) 1
+    400898: Cylinder (13)
+    400900: Cylinder (13) 1
+    400902: Cylinder (14)
+    400904: Cylinder (14) 1
+    400906: Cylinder (15)
+    400908: Cylinder (15) 1
+    400910: Cylinder (16)
+    400912: Cylinder (16) 1
+    400914: Cylinder (17)
+    400916: Cylinder (17) 1
+    400918: Cylinder (18)
+    400920: Cylinder (18) 1
+    400922: Cylinder (2)
+    400924: Cylinder (2) 1
+    400926: Cylinder (2) 2
+    400928: Cylinder (2) 3
+    400930: Cylinder (3)
+    400932: Cylinder (3) 1
+    400934: Cylinder (3) 2
+    400936: Cylinder (3) 3
+    400938: Cylinder (4)
+    400940: Cylinder (4) 1
+    400942: Cylinder (4) 2
+    400944: Cylinder (4) 3
+    400946: Cylinder (4) 4
+    400948: Cylinder (5)
+    400950: Cylinder (5) 1
+    400952: Cylinder (5) 2
+    400954: Cylinder (6)
+    400956: Cylinder (6) 1
+    400958: Cylinder (6) 2
+    400960: Cylinder (7)
+    400962: Cylinder (7) 1
+    400964: Cylinder (7) 2
+    400966: Cylinder (8)
+    400968: Cylinder (8) 1
+    400970: Cylinder (9)
+    400972: Cylinder (9) 1
+    400974: Cylinder 1
+    400976: DamageDisc
+    400978: DamageDiscOverlay
+    400980: DeadZone
+    400982: DeadZone 1
+    400984: Directional light
+    400986: Directional light (1)
+    400988: Dolphin fountain at the Sterns Wharf
+    400990: DOLPHIN#1
+    400992: DOLPHIN#1 1
+    400994: face
+    400996: Fill
+    400998: Fill 1
+    401000: Fill Area
+    401002: Fill Area 1
+    401004: Framerate
+    401006: GameMaster
+    401008: GameObject
+    401010: GameplayUI
+    401012: Global Control
+    401014: Gloss
+    401016: glove1
+    401018: glove2
+    401020: Grate
+    401022: Grate (1)
+    401024: Group 10
+    401026: Group 11
+    401028: Group 9
+    401030: hair
+    401032: Handle
+    401034: Handle 1
+    401036: Handle Slide Area
+    401038: Handle Slide Area 1
+    401040: hat
+    401042: HeadCarving
+    401044: HealthDisc
+    401046: helper_controller
+    401048: helper_controllersphere
+    401050: IK Chain001
+    401052: IK Chain002
+    401054: IK_L_Hand
+    401056: IK_R_Hand
+    401058: jolly room
+    401060: Jump
+    401062: kelp
+    401064: kelp 1
+    401066: kelp 1 1
+    401068: kelp 1 1 1
+    401070: kelp 1 2
+    401072: kelp 1 3
+    401074: kelp 2
+    401076: kelp 2 1
+    401078: kelp 2 1 1
+    401080: kelp 2 2
+    401082: kelp 2 3
+    401084: kelp 3
+    401086: kelp 3 1
+    401088: kelp 3 1 1
+    401090: kelp 3 2
+    401092: kelp 3 3
+    401094: kelp 4
+    401096: kelp 4 1
+    401098: kelp 4 2
+    401100: kelp 4 3
+    401102: kelp 5
+    401104: kelp 5 1
+    401106: kelp 5 2
+    401108: kelp 5 3
+    401110: kelp 6
+    401112: kelp 6 1
+    401114: kelp 6 2
+    401116: kelp 6 3
+    401118: kelp 7
+    401120: kelp 7 1
+    401122: kelp 7 2
+    401124: kelp 7 3
+    401126: kelp 8
+    401128: kelp 8 1
+    401130: kelp 8 2
+    401132: kelp 8 3
+    401134: kelp 9
+    401136: kelp 9 1
+    401138: kelp 9 2
+    401140: kelp 9 3
+    401142: Keyboard
+    401144: leaf single
+    401146: leaf single 1
+    401148: leaf single 1 1
+    401150: leaf single 1 1 1
+    401152: leaf single 1 2
+    401154: leaf single 1 3
+    401156: leaf single 10
+    401158: leaf single 10 1
+    401160: leaf single 10 2
+    401162: leaf single 10 3
+    401164: leaf single 11
+    401166: leaf single 11 1
+    401168: leaf single 11 2
+    401170: leaf single 11 3
+    401172: leaf single 2
+    401174: leaf single 2 1
+    401176: leaf single 2 1 1
+    401178: leaf single 2 2
+    401180: leaf single 2 3
+    401182: leaf single 3
+    401184: leaf single 3 1
+    401186: leaf single 3 1 1
+    401188: leaf single 3 2
+    401190: leaf single 3 3
+    401192: leaf single 4
+    401194: leaf single 4 1
+    401196: leaf single 4 2
+    401198: leaf single 4 3
+    401200: leaf single 5
+    401202: leaf single 5 1
+    401204: leaf single 5 2
+    401206: leaf single 5 3
+    401208: leaf single 6
+    401210: leaf single 6 1
+    401212: leaf single 6 2
+    401214: leaf single 6 3
+    401216: leaf single 7
+    401218: leaf single 7 1
+    401220: leaf single 7 2
+    401222: leaf single 7 3
+    401224: leaf single 8
+    401226: leaf single 8 1
+    401228: leaf single 8 2
+    401230: leaf single 8 3
+    401232: leaf single 9
+    401234: leaf single 9 1
+    401236: leaf single 9 2
+    401238: leaf single 9 3
+    401240: lionfish
+    401242: lionfish 1
+    401244: lionfish 2
+    401246: lionfish 3
+    401248: MainInputs
+    401250: MarioCamera
+    401252: Missing Prefab
+    401254: MoveBackward
+    401256: MoveBackward 1
+    401258: MoveForward
+    401260: MoveForward 1
+    401262: MoveLeft
+    401264: MoveLeft 1
+    401266: MovementDeadZone
+    401268: MovementMarker
+    401270: MovementMarker 1
+    401272: MoveRight
+    401274: MoveRight 1
+    401276: MoveUpButton
+    401278: MoveUpButton 1
+    401280: MoveUpButton 10
+    401282: MoveUpButton 11
+    401284: MoveUpButton 2
+    401286: MoveUpButton 3
+    401288: MoveUpButton 4
+    401290: MoveUpButton 5
+    401292: MoveUpButton 6
+    401294: MoveUpButton 7
+    401296: MoveUpButton 8
+    401298: MoveUpButton 9
+    401300: New Sprite
+    401302: New Sprite (1)
+    401304: New Sprite (3)
+    401306: particle
+    401308: particle (1)
+    401310: particle (2)
+    401312: Pause
+    401314: PauseCamera
+    401316: peach
+    401318: Plane
+    401320: Point light
+    401322: Point light 1
+    401324: Point light 2
+    401326: Point light 3
+    401328: PointCtrl_hand_L
+    401330: PointCtrl_hand_R
+    401332: PointCtrl_head
+    401334: PointCtrl_Hip
+    401336: PointCtrl_neck
+    401338: PointCtrl_Spine
+    401340: PointH_L_Ankle
+    401342: PointH_L_Toe
+    401344: PointH_R_Ankle
+    401346: PointH_R_Toe
+    401348: post
+    401350: post 1
+    401352: post 1 1
+    401354: post 1 1 1
+    401356: post 1 10
+    401358: post 1 11
+    401360: post 1 12
+    401362: post 1 2
+    401364: post 1 3
+    401366: post 1 4
+    401368: post 1 5
+    401370: post 1 6
+    401372: post 1 7
+    401374: post 1 8
+    401376: post 1 9
+    401378: post 10
+    401380: post 11
+    401382: post 2
+    401384: post 3
+    401386: post 4
+    401388: post 5
+    401390: post 6
+    401392: post 7
+    401394: post 8
+    401396: post 9
+    401398: Powerstar
+    401400: PresetsTitle
+    401402: pupil1
+    401404: pupil2
+    401406: QuitButton
+    401408: railing 1
+    401410: railing 1 1
+    401412: railing 1 10
+    401414: railing 1 11
+    401416: railing 1 12
+    401418: railing 1 13
+    401420: railing 1 14
+    401422: railing 1 15
+    401424: railing 1 2
+    401426: railing 1 3
+    401428: railing 1 4
+    401430: railing 1 5
+    401432: railing 1 6
+    401434: railing 1 7
+    401436: railing 1 8
+    401438: railing 1 9
+    401440: railing+1
+    401442: railing+1 (1)
+    401444: railing+1 (10)
+    401446: railing+1 (11)
+    401448: railing+1 (12)
+    401450: railing+1 (13)
+    401452: railing+1 (14)
+    401454: railing+1 (15)
+    401456: railing+1 (16)
+    401458: railing+1 (2)
+    401460: railing+1 (3)
+    401462: railing+1 (4)
+    401464: railing+1 (5)
+    401466: railing+1 (6)
+    401468: railing+1 (7)
+    401470: railing+1 (8)
+    401472: railing+1 (9)
+    401474: RedCoins
+    401476: RedCoinsThird
+    401478: Reflection Probe
+    401480: RunSmokeEffect
+    401482: Santa Barbara Dolphin
+    401484: ScaleAnimator
+    401486: seaweed
+    401488: seaweed 1
+    401490: seaweed 1 1
+    401492: seaweed 1 1 1
+    401494: seaweed 1 2
+    401496: seaweed 1 3
+    401498: seaweed 2
+    401500: seaweed 2 1
+    401502: seaweed 2 1 1
+    401504: seaweed 2 2
+    401506: seaweed 2 3
+    401508: seaweed 3
+    401510: seaweed 3 1
+    401512: seaweed 3 1 1
+    401514: seaweed 3 2
+    401516: seaweed 3 3
+    401518: Slider
+    401520: Slider 1
+    401522: star
+    401524: star (1)
+    401526: star (1) 1
+    401528: StartPosition
+    401530: Strike
+    401532: Text
+    401534: Text 1
+    401536: Text 10
+    401538: Text 11
+    401540: Text 12
+    401542: Text 13
+    401544: Text 14
+    401546: Text 15
+    401548: Text 16
+    401550: Text 2
+    401552: Text 3
+    401554: Text 4
+    401556: Text 5
+    401558: Text 6
+    401560: Text 7
+    401562: Text 8
+    401564: Text 9
+    401566: untitled
+    401568: Untitled (10)
+    401570: Untitled (11)
+    401572: Untitled (12)
+    401574: Untitled (13)
+    401576: Untitled (14)
+    401578: Untitled (15)
+    401580: Untitled (3)
+    401582: Untitled (7)
+    401584: Untitled (8)
+    401586: weed of the sea
+    401588: weed of the sea 1
+    401590: weed of the sea 1 1
+    401592: weed of the sea 1 1 1
+    401594: weed of the sea 1 2
+    401596: weed of the sea 1 3
+    401598: weed of the sea 10
+    401600: weed of the sea 10 1
+    401602: weed of the sea 10 2
+    401604: weed of the sea 10 3
+    401606: weed of the sea 11
+    401608: weed of the sea 11 1
+    401610: weed of the sea 11 2
+    401612: weed of the sea 11 3
+    401614: weed of the sea 12
+    401616: weed of the sea 12 1
+    401618: weed of the sea 12 2
+    401620: weed of the sea 12 3
+    401622: weed of the sea 13
+    401624: weed of the sea 13 1
+    401626: weed of the sea 13 2
+    401628: weed of the sea 13 3
+    401630: weed of the sea 14
+    401632: weed of the sea 14 1
+    401634: weed of the sea 14 2
+    401636: weed of the sea 14 3
+    401638: weed of the sea 15
+    401640: weed of the sea 15 1
+    401642: weed of the sea 15 2
+    401644: weed of the sea 15 3
+    401646: weed of the sea 16
+    401648: weed of the sea 16 1
+    401650: weed of the sea 16 2
+    401652: weed of the sea 16 3
+    401654: weed of the sea 17
+    401656: weed of the sea 17 1
+    401658: weed of the sea 17 2
+    401660: weed of the sea 17 3
+    401662: weed of the sea 18
+    401664: weed of the sea 18 1
+    401666: weed of the sea 18 2
+    401668: weed of the sea 18 3
+    401670: weed of the sea 19
+    401672: weed of the sea 19 1
+    401674: weed of the sea 19 2
+    401676: weed of the sea 19 3
+    401678: weed of the sea 2
+    401680: weed of the sea 2 1
+    401682: weed of the sea 2 1 1
+    401684: weed of the sea 2 2
+    401686: weed of the sea 2 3
+    401688: weed of the sea 20
+    401690: weed of the sea 20 1
+    401692: weed of the sea 20 2
+    401694: weed of the sea 20 3
+    401696: weed of the sea 21
+    401698: weed of the sea 21 1
+    401700: weed of the sea 21 2
+    401702: weed of the sea 21 3
+    401704: weed of the sea 22
+    401706: weed of the sea 22 1
+    401708: weed of the sea 22 2
+    401710: weed of the sea 22 3
+    401712: weed of the sea 23
+    401714: weed of the sea 23 1
+    401716: weed of the sea 23 2
+    401718: weed of the sea 23 3
+    401720: weed of the sea 3
+    401722: weed of the sea 3 1
+    401724: weed of the sea 3 1 1
+    401726: weed of the sea 3 2
+    401728: weed of the sea 3 3
+    401730: weed of the sea 4
+    401732: weed of the sea 4 1
+    401734: weed of the sea 4 2
+    401736: weed of the sea 4 3
+    401738: weed of the sea 5
+    401740: weed of the sea 5 1
+    401742: weed of the sea 5 2
+    401744: weed of the sea 5 3
+    401746: weed of the sea 6
+    401748: weed of the sea 6 1
+    401750: weed of the sea 6 2
+    401752: weed of the sea 6 3
+    401754: weed of the sea 7
+    401756: weed of the sea 7 1
+    401758: weed of the sea 7 2
+    401760: weed of the sea 7 3
+    401762: weed of the sea 8
+    401764: weed of the sea 8 1
+    401766: weed of the sea 8 2
+    401768: weed of the sea 8 3
+    401770: weed of the sea 9
+    401772: weed of the sea 9 1
+    401774: weed of the sea 9 2
+    401776: weed of the sea 9 3
+    401778: WhiteMatte
+    401780: whompsroom
+    2300000: r0-node
+    2300002: r1-node
+    2300004: r2-node
+    2300006: r3-node
+    2300008: r4-node
+    2300010: r5-node
+    2300012: r6-node
+    2300014: r7-node
+    2300016: Aquarium1
+    2300018: Aquarium1 (1)
+    2300020: Aquarium1 (2)
+    2300022: Aquarium1 (3)
+    2300024: body
+    2300026: bombomb
+    2300028: Box001
+    2300030: CircleShadowPlane
+    2300032: CircleShadowPlane 1
+    2300034: CircleShadowPlane 2
+    2300036: CircleShadowPlane 3
+    2300038: Coin 1
+    2300040: Coin 2
+    2300042: Coin 3
+    2300044: Coin 4
+    2300046: CollisionMesh
+    2300048: cruscarp (1) 1
+    2300050: cruscarp (1) 2
+    2300052: cruscarp (1) 3
+    2300054: cruscarp (1) 4
+    2300056: cruscarp (1) 5
+    2300058: cruscarp (1) 6
+    2300060: cruscarp (1) 7
+    2300062: cruscarp (1) 8
+    2300064: cruscarp 1
+    2300066: cruscarp 2
+    2300068: cruscarp 3
+    2300070: cruscarp 4
+    2300072: cruscarp 5
+    2300074: cruscarp 6
+    2300076: cruscarp 7
+    2300078: cruscarp 8
+    2300080: cruscarp 9
+    2300082: Ctrl_Leg_L
+    2300084: Ctrl_Leg_R
+    2300086: Cube (1)
+    2300088: Cube (1) 1
+    2300090: Cube (1) 2
+    2300092: Cube (1) 3
+    2300094: Cube (1) 4
+    2300096: Cube (1) 5
+    2300098: Cube (2)
+    2300100: Cube (2) 1
+    2300102: Cube (2) 2
+    2300104: Cube (2) 3
+    2300106: Cube (3)
+    2300108: Cube (3) 1
+    2300110: Cube (3) 2
+    2300112: Cube (3) 3
+    2300114: Cube (4)
+    2300116: Cube 1
+    2300118: Cube 2
+    2300120: Cube 3
+    2300122: Cube 5
+    2300124: Cube 6
+    2300126: Cylinder
+    2300128: Cylinder (1)
+    2300130: Cylinder (1) 1
+    2300132: Cylinder (1) 2
+    2300134: Cylinder (1) 3
+    2300136: Cylinder (1) 4
+    2300138: Cylinder (1) 5
+    2300140: Cylinder (1) 6
+    2300142: Cylinder (1) 7
+    2300144: Cylinder (10)
+    2300146: Cylinder (10) 1
+    2300148: Cylinder (11)
+    2300150: Cylinder (11) 1
+    2300152: Cylinder (12)
+    2300154: Cylinder (12) 1
+    2300156: Cylinder (13)
+    2300158: Cylinder (13) 1
+    2300160: Cylinder (14)
+    2300162: Cylinder (14) 1
+    2300164: Cylinder (15)
+    2300166: Cylinder (15) 1
+    2300168: Cylinder (16)
+    2300170: Cylinder (16) 1
+    2300172: Cylinder (17)
+    2300174: Cylinder (17) 1
+    2300176: Cylinder (18)
+    2300178: Cylinder (18) 1
+    2300180: Cylinder (2)
+    2300182: Cylinder (2) 1
+    2300184: Cylinder (2) 2
+    2300186: Cylinder (2) 3
+    2300188: Cylinder (3)
+    2300190: Cylinder (3) 1
+    2300192: Cylinder (3) 2
+    2300194: Cylinder (3) 3
+    2300196: Cylinder (4)
+    2300198: Cylinder (4) 1
+    2300200: Cylinder (4) 2
+    2300202: Cylinder (4) 3
+    2300204: Cylinder (4) 4
+    2300206: Cylinder (5)
+    2300208: Cylinder (5) 1
+    2300210: Cylinder (5) 2
+    2300212: Cylinder (6)
+    2300214: Cylinder (6) 1
+    2300216: Cylinder (6) 2
+    2300218: Cylinder (7)
+    2300220: Cylinder (7) 1
+    2300222: Cylinder (7) 2
+    2300224: Cylinder (8)
+    2300226: Cylinder (8) 1
+    2300228: Cylinder (9)
+    2300230: Cylinder (9) 1
+    2300232: Cylinder 1
+    2300234: face
+    2300236: glove1
+    2300238: glove2
+    2300240: Grate
+    2300242: Grate (1)
+    2300244: Group 11
+    2300246: hair
+    2300248: hat
+    2300250: jolly room
+    2300252: kelp 5
+    2300254: kelp 5 1
+    2300256: kelp 5 2
+    2300258: kelp 5 3
+    2300260: kelp 6
+    2300262: kelp 6 1
+    2300264: kelp 6 2
+    2300266: kelp 6 3
+    2300268: kelp 7
+    2300270: kelp 7 1
+    2300272: kelp 7 2
+    2300274: kelp 7 3
+    2300276: kelp 8
+    2300278: kelp 8 1
+    2300280: kelp 8 2
+    2300282: kelp 8 3
+    2300284: kelp 9
+    2300286: kelp 9 1
+    2300288: kelp 9 2
+    2300290: kelp 9 3
+    2300292: particle
+    2300294: particle (1)
+    2300296: particle (2)
+    2300298: post
+    2300300: post 1
+    2300302: post 1 1
+    2300304: post 1 1 1
+    2300306: post 1 10
+    2300308: post 1 11
+    2300310: post 1 12
+    2300312: post 1 2
+    2300314: post 1 3
+    2300316: post 1 4
+    2300318: post 1 5
+    2300320: post 1 6
+    2300322: post 1 7
+    2300324: post 1 8
+    2300326: post 1 9
+    2300328: post 10
+    2300330: post 11
+    2300332: post 2
+    2300334: post 3
+    2300336: post 4
+    2300338: post 5
+    2300340: post 6
+    2300342: post 7
+    2300344: post 8
+    2300346: post 9
+    2300348: pupil1
+    2300350: pupil2
+    2300352: railing 1
+    2300354: railing 1 1
+    2300356: railing 1 10
+    2300358: railing 1 11
+    2300360: railing 1 12
+    2300362: railing 1 13
+    2300364: railing 1 14
+    2300366: railing 1 15
+    2300368: railing 1 2
+    2300370: railing 1 3
+    2300372: railing 1 4
+    2300374: railing 1 5
+    2300376: railing 1 6
+    2300378: railing 1 7
+    2300380: railing 1 8
+    2300382: railing 1 9
+    2300384: star
+    2300386: star (1)
+    2300388: star (1) 1
+    2300390: untitled
+    2300392: Untitled (10)
+    2300394: Untitled (11)
+    2300396: Untitled (12)
+    2300398: Untitled (13)
+    2300400: Untitled (14)
+    2300402: Untitled (15)
+    2300404: Untitled (7)
+    2300406: Untitled (8)
+    2300408: weed of the sea
+    2300410: weed of the sea 1
+    2300412: weed of the sea 1 1
+    2300414: weed of the sea 1 1 1
+    2300416: weed of the sea 1 2
+    2300418: weed of the sea 1 3
+    2300420: weed of the sea 10
+    2300422: weed of the sea 10 1
+    2300424: weed of the sea 10 2
+    2300426: weed of the sea 10 3
+    2300428: weed of the sea 11
+    2300430: weed of the sea 11 1
+    2300432: weed of the sea 11 2
+    2300434: weed of the sea 11 3
+    2300436: weed of the sea 12
+    2300438: weed of the sea 12 1
+    2300440: weed of the sea 12 2
+    2300442: weed of the sea 12 3
+    2300444: weed of the sea 13
+    2300446: weed of the sea 13 1
+    2300448: weed of the sea 13 2
+    2300450: weed of the sea 13 3
+    2300452: weed of the sea 14
+    2300454: weed of the sea 14 1
+    2300456: weed of the sea 14 2
+    2300458: weed of the sea 14 3
+    2300460: weed of the sea 15
+    2300462: weed of the sea 15 1
+    2300464: weed of the sea 15 2
+    2300466: weed of the sea 15 3
+    2300468: weed of the sea 16
+    2300470: weed of the sea 16 1
+    2300472: weed of the sea 16 2
+    2300474: weed of the sea 16 3
+    2300476: weed of the sea 17
+    2300478: weed of the sea 17 1
+    2300480: weed of the sea 17 2
+    2300482: weed of the sea 17 3
+    2300484: weed of the sea 18
+    2300486: weed of the sea 18 1
+    2300488: weed of the sea 18 2
+    2300490: weed of the sea 18 3
+    2300492: weed of the sea 19
+    2300494: weed of the sea 19 1
+    2300496: weed of the sea 19 2
+    2300498: weed of the sea 19 3
+    2300500: weed of the sea 2
+    2300502: weed of the sea 2 1
+    2300504: weed of the sea 2 1 1
+    2300506: weed of the sea 2 2
+    2300508: weed of the sea 2 3
+    2300510: weed of the sea 20
+    2300512: weed of the sea 20 1
+    2300514: weed of the sea 20 2
+    2300516: weed of the sea 20 3
+    2300518: weed of the sea 21
+    2300520: weed of the sea 21 1
+    2300522: weed of the sea 21 2
+    2300524: weed of the sea 21 3
+    2300526: weed of the sea 22
+    2300528: weed of the sea 22 1
+    2300530: weed of the sea 22 2
+    2300532: weed of the sea 22 3
+    2300534: weed of the sea 23
+    2300536: weed of the sea 23 1
+    2300538: weed of the sea 23 2
+    2300540: weed of the sea 23 3
+    2300542: weed of the sea 3
+    2300544: weed of the sea 3 1
+    2300546: weed of the sea 3 1 1
+    2300548: weed of the sea 3 2
+    2300550: weed of the sea 3 3
+    2300552: weed of the sea 4
+    2300554: weed of the sea 4 1
+    2300556: weed of the sea 4 2
+    2300558: weed of the sea 4 3
+    2300560: weed of the sea 5
+    2300562: weed of the sea 5 1
+    2300564: weed of the sea 5 2
+    2300566: weed of the sea 5 3
+    2300568: weed of the sea 6
+    2300570: weed of the sea 6 1
+    2300572: weed of the sea 6 2
+    2300574: weed of the sea 6 3
+    2300576: weed of the sea 7
+    2300578: weed of the sea 7 1
+    2300580: weed of the sea 7 2
+    2300582: weed of the sea 7 3
+    2300584: weed of the sea 8
+    2300586: weed of the sea 8 1
+    2300588: weed of the sea 8 2
+    2300590: weed of the sea 8 3
+    2300592: weed of the sea 9
+    2300594: weed of the sea 9 1
+    2300596: weed of the sea 9 2
+    2300598: weed of the sea 9 3
+    2300600: whompsroom
+    3300000: r0-node
+    3300002: r1-node
+    3300004: r2-node
+    3300006: r3-node
+    3300008: r4-node
+    3300010: r5-node
+    3300012: r6-node
+    3300014: r7-node
+    3300016: Aquarium1
+    3300018: Aquarium1 (1)
+    3300020: Aquarium1 (2)
+    3300022: Aquarium1 (3)
+    3300024: body
+    3300026: bombomb
+    3300028: Box001
+    3300030: CircleShadowPlane
+    3300032: CircleShadowPlane 1
+    3300034: CircleShadowPlane 2
+    3300036: CircleShadowPlane 3
+    3300038: Coin 1
+    3300040: Coin 2
+    3300042: Coin 3
+    3300044: Coin 4
+    3300046: CollisionMesh
+    3300048: cruscarp (1) 1
+    3300050: cruscarp (1) 2
+    3300052: cruscarp (1) 3
+    3300054: cruscarp (1) 4
+    3300056: cruscarp (1) 5
+    3300058: cruscarp (1) 6
+    3300060: cruscarp (1) 7
+    3300062: cruscarp (1) 8
+    3300064: cruscarp 1
+    3300066: cruscarp 2
+    3300068: cruscarp 3
+    3300070: cruscarp 4
+    3300072: cruscarp 5
+    3300074: cruscarp 6
+    3300076: cruscarp 7
+    3300078: cruscarp 8
+    3300080: cruscarp 9
+    3300082: Ctrl_Leg_L
+    3300084: Ctrl_Leg_R
+    3300086: Cube (1)
+    3300088: Cube (1) 1
+    3300090: Cube (1) 2
+    3300092: Cube (1) 3
+    3300094: Cube (1) 4
+    3300096: Cube (1) 5
+    3300098: Cube (2)
+    3300100: Cube (2) 1
+    3300102: Cube (2) 2
+    3300104: Cube (2) 3
+    3300106: Cube (3)
+    3300108: Cube (3) 1
+    3300110: Cube (3) 2
+    3300112: Cube (3) 3
+    3300114: Cube (4)
+    3300116: Cube 1
+    3300118: Cube 2
+    3300120: Cube 3
+    3300122: Cube 5
+    3300124: Cube 6
+    3300126: Cylinder
+    3300128: Cylinder (1)
+    3300130: Cylinder (1) 1
+    3300132: Cylinder (1) 2
+    3300134: Cylinder (1) 3
+    3300136: Cylinder (1) 4
+    3300138: Cylinder (1) 5
+    3300140: Cylinder (1) 6
+    3300142: Cylinder (1) 7
+    3300144: Cylinder (10)
+    3300146: Cylinder (10) 1
+    3300148: Cylinder (11)
+    3300150: Cylinder (11) 1
+    3300152: Cylinder (12)
+    3300154: Cylinder (12) 1
+    3300156: Cylinder (13)
+    3300158: Cylinder (13) 1
+    3300160: Cylinder (14)
+    3300162: Cylinder (14) 1
+    3300164: Cylinder (15)
+    3300166: Cylinder (15) 1
+    3300168: Cylinder (16)
+    3300170: Cylinder (16) 1
+    3300172: Cylinder (17)
+    3300174: Cylinder (17) 1
+    3300176: Cylinder (18)
+    3300178: Cylinder (18) 1
+    3300180: Cylinder (2)
+    3300182: Cylinder (2) 1
+    3300184: Cylinder (2) 2
+    3300186: Cylinder (2) 3
+    3300188: Cylinder (3)
+    3300190: Cylinder (3) 1
+    3300192: Cylinder (3) 2
+    3300194: Cylinder (3) 3
+    3300196: Cylinder (4)
+    3300198: Cylinder (4) 1
+    3300200: Cylinder (4) 2
+    3300202: Cylinder (4) 3
+    3300204: Cylinder (4) 4
+    3300206: Cylinder (5)
+    3300208: Cylinder (5) 1
+    3300210: Cylinder (5) 2
+    3300212: Cylinder (6)
+    3300214: Cylinder (6) 1
+    3300216: Cylinder (6) 2
+    3300218: Cylinder (7)
+    3300220: Cylinder (7) 1
+    3300222: Cylinder (7) 2
+    3300224: Cylinder (8)
+    3300226: Cylinder (8) 1
+    3300228: Cylinder (9)
+    3300230: Cylinder (9) 1
+    3300232: Cylinder 1
+    3300234: face
+    3300236: glove1
+    3300238: glove2
+    3300240: Grate
+    3300242: Grate (1)
+    3300244: Group 11
+    3300246: hair
+    3300248: hat
+    3300250: jolly room
+    3300252: kelp 5
+    3300254: kelp 5 1
+    3300256: kelp 5 2
+    3300258: kelp 5 3
+    3300260: kelp 6
+    3300262: kelp 6 1
+    3300264: kelp 6 2
+    3300266: kelp 6 3
+    3300268: kelp 7
+    3300270: kelp 7 1
+    3300272: kelp 7 2
+    3300274: kelp 7 3
+    3300276: kelp 8
+    3300278: kelp 8 1
+    3300280: kelp 8 2
+    3300282: kelp 8 3
+    3300284: kelp 9
+    3300286: kelp 9 1
+    3300288: kelp 9 2
+    3300290: kelp 9 3
+    3300292: particle
+    3300294: particle (1)
+    3300296: particle (2)
+    3300298: post
+    3300300: post 1
+    3300302: post 1 1
+    3300304: post 1 1 1
+    3300306: post 1 10
+    3300308: post 1 11
+    3300310: post 1 12
+    3300312: post 1 2
+    3300314: post 1 3
+    3300316: post 1 4
+    3300318: post 1 5
+    3300320: post 1 6
+    3300322: post 1 7
+    3300324: post 1 8
+    3300326: post 1 9
+    3300328: post 10
+    3300330: post 11
+    3300332: post 2
+    3300334: post 3
+    3300336: post 4
+    3300338: post 5
+    3300340: post 6
+    3300342: post 7
+    3300344: post 8
+    3300346: post 9
+    3300348: pupil1
+    3300350: pupil2
+    3300352: railing 1
+    3300354: railing 1 1
+    3300356: railing 1 10
+    3300358: railing 1 11
+    3300360: railing 1 12
+    3300362: railing 1 13
+    3300364: railing 1 14
+    3300366: railing 1 15
+    3300368: railing 1 2
+    3300370: railing 1 3
+    3300372: railing 1 4
+    3300374: railing 1 5
+    3300376: railing 1 6
+    3300378: railing 1 7
+    3300380: railing 1 8
+    3300382: railing 1 9
+    3300384: star
+    3300386: star (1)
+    3300388: star (1) 1
+    3300390: untitled
+    3300392: Untitled (10)
+    3300394: Untitled (11)
+    3300396: Untitled (12)
+    3300398: Untitled (13)
+    3300400: Untitled (14)
+    3300402: Untitled (15)
+    3300404: Untitled (7)
+    3300406: Untitled (8)
+    3300408: weed of the sea
+    3300410: weed of the sea 1
+    3300412: weed of the sea 1 1
+    3300414: weed of the sea 1 1 1
+    3300416: weed of the sea 1 2
+    3300418: weed of the sea 1 3
+    3300420: weed of the sea 10
+    3300422: weed of the sea 10 1
+    3300424: weed of the sea 10 2
+    3300426: weed of the sea 10 3
+    3300428: weed of the sea 11
+    3300430: weed of the sea 11 1
+    3300432: weed of the sea 11 2
+    3300434: weed of the sea 11 3
+    3300436: weed of the sea 12
+    3300438: weed of the sea 12 1
+    3300440: weed of the sea 12 2
+    3300442: weed of the sea 12 3
+    3300444: weed of the sea 13
+    3300446: weed of the sea 13 1
+    3300448: weed of the sea 13 2
+    3300450: weed of the sea 13 3
+    3300452: weed of the sea 14
+    3300454: weed of the sea 14 1
+    3300456: weed of the sea 14 2
+    3300458: weed of the sea 14 3
+    3300460: weed of the sea 15
+    3300462: weed of the sea 15 1
+    3300464: weed of the sea 15 2
+    3300466: weed of the sea 15 3
+    3300468: weed of the sea 16
+    3300470: weed of the sea 16 1
+    3300472: weed of the sea 16 2
+    3300474: weed of the sea 16 3
+    3300476: weed of the sea 17
+    3300478: weed of the sea 17 1
+    3300480: weed of the sea 17 2
+    3300482: weed of the sea 17 3
+    3300484: weed of the sea 18
+    3300486: weed of the sea 18 1
+    3300488: weed of the sea 18 2
+    3300490: weed of the sea 18 3
+    3300492: weed of the sea 19
+    3300494: weed of the sea 19 1
+    3300496: weed of the sea 19 2
+    3300498: weed of the sea 19 3
+    3300500: weed of the sea 2
+    3300502: weed of the sea 2 1
+    3300504: weed of the sea 2 1 1
+    3300506: weed of the sea 2 2
+    3300508: weed of the sea 2 3
+    3300510: weed of the sea 20
+    3300512: weed of the sea 20 1
+    3300514: weed of the sea 20 2
+    3300516: weed of the sea 20 3
+    3300518: weed of the sea 21
+    3300520: weed of the sea 21 1
+    3300522: weed of the sea 21 2
+    3300524: weed of the sea 21 3
+    3300526: weed of the sea 22
+    3300528: weed of the sea 22 1
+    3300530: weed of the sea 22 2
+    3300532: weed of the sea 22 3
+    3300534: weed of the sea 23
+    3300536: weed of the sea 23 1
+    3300538: weed of the sea 23 2
+    3300540: weed of the sea 23 3
+    3300542: weed of the sea 3
+    3300544: weed of the sea 3 1
+    3300546: weed of the sea 3 1 1
+    3300548: weed of the sea 3 2
+    3300550: weed of the sea 3 3
+    3300552: weed of the sea 4
+    3300554: weed of the sea 4 1
+    3300556: weed of the sea 4 2
+    3300558: weed of the sea 4 3
+    3300560: weed of the sea 5
+    3300562: weed of the sea 5 1
+    3300564: weed of the sea 5 2
+    3300566: weed of the sea 5 3
+    3300568: weed of the sea 6
+    3300570: weed of the sea 6 1
+    3300572: weed of the sea 6 2
+    3300574: weed of the sea 6 3
+    3300576: weed of the sea 7
+    3300578: weed of the sea 7 1
+    3300580: weed of the sea 7 2
+    3300582: weed of the sea 7 3
+    3300584: weed of the sea 8
+    3300586: weed of the sea 8 1
+    3300588: weed of the sea 8 2
+    3300590: weed of the sea 8 3
+    3300592: weed of the sea 9
+    3300594: weed of the sea 9 1
+    3300596: weed of the sea 9 2
+    3300598: weed of the sea 9 3
+    3300600: whompsroom
+    4300000: r0-node
+    4300002: r1-node
+    4300004: r2-node
+    4300006: r3-node
+    4300008: r4-node
+    4300010: r5-node
+    4300012: r6-node
+    4300014: r7-node
+    4300016: cruscarp
+    4300018: railing 1
+    4300020: post
+    4300022: post 1
+    4300024: railing 1
+    4300026: post
+    4300028: post 1
+    4300030: railing 1
+    4300032: post
+    4300034: post 1
+    4300036: star
+    4300038: cruscarp
+    4300040: cruscarp (1)
+    4300042: cruscarp
+    4300044: cruscarp (1)
+    4300046: CircleShadowPlane
+    4300048: Coin
+    4300050: railing 1
+    4300052: post
+    4300054: post 1
+    4300056: railing 1
+    4300058: post
+    4300060: post 1
+    4300062: railing 1
+    4300064: post
+    4300066: post 1
+    4300068: railing 1
+    4300070: post
+    4300072: post 1
+    4300074: Grate (1)
+    4300076: cruscarp
+    4300078: cruscarp (1)
+    4300080: railing 1
+    4300082: post
+    4300084: post 1
+    4300086: cruscarp
+    4300088: cruscarp (1)
+    4300090: CircleShadowPlane
+    4300092: Coin
+    4300094: railing 1
+    4300096: post
+    4300098: post 1
+    4300100: railing 1
+    4300102: post
+    4300104: post 1
+    4300106: CircleShadowPlane
+    4300108: Coin
+    4300110: Grate
+    4300112: cruscarp
+    4300114: cruscarp (1)
+    4300116: railing 1
+    4300118: post
+    4300120: post 1
+    4300122: cruscarp
+    4300124: cruscarp (1)
+    4300126: cruscarp
+    4300128: cruscarp (1)
+    4300130: cruscarp
+    4300132: cruscarp (1)
+    4300134: railing 1
+    4300136: post
+    4300138: post 1
+    4300140: CircleShadowPlane
+    4300142: Coin
+    4300144: untitled
+    4300146: Cylinder
+    4300148: Cylinder (1)
+    4300150: Cylinder (2)
+    4300152: Cylinder (1)
+    4300154: Cylinder (1)
+    4300156: Cylinder (2)
+    4300158: Cube
+    4300160: Cylinder (6)
+    4300162: Cylinder (11)
+    4300164: Cylinder (16)
+    4300166: Cylinder (17)
+    4300168: Cylinder (9)
+    4300170: Cylinder (10)
+    4300172: Cylinder (12)
+    4300174: Cylinder (14)
+    4300176: Cylinder (18)
+    4300178: Cylinder (7)
+    4300180: Cylinder (13)
+    4300182: Cylinder (5)
+    4300184: Cylinder (8)
+    4300186: Cylinder (15)
+    4300188: Cylinder (4)
+    4300190: Cylinder (3)
+    4300192: Cylinder (4)
+    4300194: Cylinder (3)
+    4300196: Cube (1)
+    4300198: Cylinder (4)
+    4300200: Cylinder (9)
+    4300202: Cylinder (8)
+    4300204: Cylinder (17)
+    4300206: Cylinder (6)
+    4300208: Cylinder (15)
+    4300210: Cylinder (16)
+    4300212: Cylinder (11)
+    4300214: Cylinder (5)
+    4300216: Cylinder (7)
+    4300218: Cylinder (14)
+    4300220: Cylinder (12)
+    4300222: Cylinder (13)
+    4300224: Cylinder (10)
+    4300226: Cylinder (18)
+    4300228: Cylinder (2)
+    4300230: Cylinder (3)
+    4300232: Cylinder (4)
+    4300234: Untitled (12)
+    4300236: Untitled (15)
+    4300238: railing 1
+    4300240: Untitled (13)
+    4300242: Untitled (11)
+    4300244: Aquarium1
+    4300246: weed of the sea 16
+    4300248: weed of the sea 17
+    4300250: weed of the sea 20
+    4300252: weed of the sea 19
+    4300254: weed of the sea 21
+    4300256: weed of the sea 22
+    4300258: weed of the sea 23
+    4300260: weed of the sea 14
+    4300262: weed of the sea 8
+    4300264: weed of the sea 7
+    4300266: weed of the sea 10
+    4300268: weed of the sea 11
+    4300270: kelp 5
+    4300272: weed of the sea 4
+    4300274: weed of the sea 18
+    4300276: weed of the sea
+    4300278: weed of the sea 1
+    4300280: weed of the sea 3
+    4300282: weed of the sea 2
+    4300284: kelp 7
+    4300286: kelp 8
+    4300288: weed of the sea 13
+    4300290: weed of the sea 5
+    4300292: weed of the sea 12
+    4300294: weed of the sea 15
+    4300296: weed of the sea 6
+    4300298: weed of the sea 9
+    4300300: kelp 9
+    4300302: kelp 6
+    4300304: Cube (3)
+    4300306: Cube (1)
+    4300308: Cube
+    4300310: Cube (2)
+    4300312: particle (1)
+    4300314: Group 11
+    4300316: Aquarium1 (2)
+    4300318: kelp 7
+    4300320: kelp 6
+    4300322: weed of the sea 1
+    4300324: weed of the sea
+    4300326: weed of the sea 18
+    4300328: weed of the sea 4
+    4300330: weed of the sea 3
+    4300332: weed of the sea 2
+    4300334: weed of the sea 7
+    4300336: weed of the sea 8
+    4300338: weed of the sea 11
+    4300340: weed of the sea 10
+    4300342: weed of the sea 14
+    4300344: weed of the sea 23
+    4300346: weed of the sea 15
+    4300348: weed of the sea 12
+    4300350: weed of the sea 13
+    4300352: weed of the sea 5
+    4300354: weed of the sea 6
+    4300356: weed of the sea 9
+    4300358: kelp 9
+    4300360: kelp 5
+    4300362: weed of the sea 17
+    4300364: weed of the sea 16
+    4300366: weed of the sea 21
+    4300368: weed of the sea 22
+    4300370: weed of the sea 20
+    4300372: weed of the sea 19
+    4300374: kelp 8
+    4300376: Untitled (10)
+    4300378: railing 1
+    4300380: Aquarium1 (3)
+    4300382: weed of the sea 11
+    4300384: weed of the sea 10
+    4300386: weed of the sea 7
+    4300388: weed of the sea 8
+    4300390: weed of the sea 23
+    4300392: weed of the sea 14
+    4300394: weed of the sea 4
+    4300396: weed of the sea 18
+    4300398: weed of the sea
+    4300400: weed of the sea 1
+    4300402: weed of the sea 2
+    4300404: weed of the sea 3
+    4300406: kelp 5
+    4300408: weed of the sea 15
+    4300410: weed of the sea 12
+    4300412: weed of the sea 6
+    4300414: weed of the sea 9
+    4300416: weed of the sea 5
+    4300418: weed of the sea 13
+    4300420: kelp 6
+    4300422: kelp 7
+    4300424: kelp 8
+    4300426: weed of the sea 22
+    4300428: weed of the sea 21
+    4300430: weed of the sea 16
+    4300432: weed of the sea 17
+    4300434: weed of the sea 19
+    4300436: weed of the sea 20
+    4300438: kelp 9
+    4300440: Untitled (14)
+    4300442: Cube (1)
+    4300444: jolly room
+    4300446: Aquarium1 (1)
+    4300448: weed of the sea
+    4300450: weed of the sea 1
+    4300452: weed of the sea 3
+    4300454: weed of the sea 2
+    4300456: weed of the sea 18
+    4300458: weed of the sea 4
+    4300460: kelp 5
+    4300462: weed of the sea 16
+    4300464: weed of the sea 17
+    4300466: weed of the sea 20
+    4300468: weed of the sea 19
+    4300470: weed of the sea 21
+    4300472: weed of the sea 22
+    4300474: weed of the sea 5
+    4300476: weed of the sea 13
+    4300478: weed of the sea 6
+    4300480: weed of the sea 9
+    4300482: weed of the sea 15
+    4300484: weed of the sea 12
+    4300486: kelp 9
+    4300488: kelp 6
+    4300490: kelp 7
+    4300492: kelp 8
+    4300494: weed of the sea 8
+    4300496: weed of the sea 7
+    4300498: weed of the sea 11
+    4300500: weed of the sea 10
+    4300502: weed of the sea 14
+    4300504: weed of the sea 23
+    4300506: Untitled (8)
+    4300508: Cube (2)
+    4300510: Cube (1)
+    4300512: Cube
+    4300514: Cube (3)
+    4300516: whompsroom
+    4300518: star (1)
+    4300520: Cylinder (3)
+    4300522: Cylinder (2)
+    4300524: Cylinder (1)
+    4300526: Cylinder
+    4300528: Cube (1)
+    4300530: Cube
+    4300532: Cube (3)
+    4300534: Cube (2)
+    4300536: railing 1
+    4300538: post 1
+    4300540: bombomb
+    4300542: star (1)
+    4300544: Cylinder (5)
+    4300546: Cylinder (1)
+    4300548: Cube
+    4300550: Cube (1)
+    4300552: Cube (3)
+    4300554: Cube (2)
+    4300556: Cube (4)
+    4300558: Cylinder (7)
+    4300560: Cylinder (1)
+    4300562: Cylinder (6)
+    4300564: Cylinder (1)
+    4300566: particle
+    4300568: Untitled (7)
+    4300570: particle (2)
+    4300572: railing 1
+    4300574: Cylinder (4)
+    4300576: Cylinder (1)
+    4300578: CollisionMesh
+    4300580: face
+    4300582: pupil2
+    4300584: body
+    4300586: hair
+    4300588: glove2
+    4300590: Ctrl_Leg_R
+    4300592: Ctrl_Leg_L
+    4300594: pupil1
+    4300596: Box001
+    4300598: hat
+    4300600: glove1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: r0-node
+    13700002: r1-node
+    13700004: r2-node
+    13700006: r3-node
+    13700008: r4-node
+    13700010: r5-node
+    13700012: r6-node
+    13700014: r7-node
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

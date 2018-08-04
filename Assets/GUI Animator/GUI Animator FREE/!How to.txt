@@ -1,0 +1,783 @@
+------------------------------------------------------------------
+GUI Animator FREE 1.1.5
+------------------------------------------------------------------
+
+	• Available on Unity Asset Store, see https://www.assetstore.unity3d.com/en/#!/content/58843
+	• Full version, visit https://www.assetstore.unity3d.com/en/#!/content/28709
+	• Please direct any bugs/comments/suggestions to geteamdev@gmail.com.
+
+------------------------------------------------------------------
+Use Demo Scenes
+------------------------------------------------------------------
+
+	• C#
+
+		1) Add new resolution to the Game tab.
+		
+			1.1) Click on dropdown-list below the tab of Game tab.
+			1.2) Click on the small plus button.
+			1.3) Add 960x600px resolutions.
+				- Label text area type 960x600.
+				- Type list box select Fixed Resolution.
+				- Width & Height type 960 and 600.
+			1.4) Click OK.
+
+		2) Change resolution of Game tab to 960x600px.
+
+			2.1) Click on drop down list in Game tab.
+			2.2) Select 960x600px item.
+
+		3) Add all demo scenes to Build Settings dialog.
+
+			3.1) Press Control+Shift+B (Windows) or Command+Shift+B (Mac).
+			3.2) Or use menu select "Top Menu->Edit->Build Settings".
+			3.3) In Project tab, look for a folder names "GUI Animator/GUI Animator FREE/Demo (CSharp)/Scenes".
+			3.4) Drag all Demo files in folder into "Scene In Build" in "Build Settings" dialog.
+			3.5) Close "Build Settings" dialog.
+
+		4) In Project tab, double click on "GUI Animator/GUI Animator FREE/Demo (CSharp)/Scenes/GA FREE - Demo00 (960x600px)" or any scene you like.
+
+		5) Press Play button.
+
+		Note there are basic demo scenes located in "GUI Animator/GUI Animator FREE/Demo Basic (CSharp)/Scenes" folder.
+
+	• JavaScript
+
+		1) Add new resolution to the Game tab.
+		
+			1.1) Click on dropdown-list below the tab of Game tab.
+			1.2) Click on the small plus button.
+			1.3) Add 960x600px resolutions.
+				- Label text area type 960x600.
+				- Type list box select Fixed Resolution.
+				- Width & Height type 960 and 600.
+				- Click on OK button.
+			1.4) Click OK.
+
+		2) Change resolution of Game tab to 960x600px.
+
+			2.1) Click on drop down list in Game tab.
+			2.2) Select 960x600px item.
+
+		3) Add all demo scenes to Build Settings dialog.
+
+			3.1) Press Control+Shift+B (Windows) or Command+Shift+B (Mac).
+			3.2) Or use menu select "Top Menu->Edit->Build Settings".
+			3.3) In Project tab, look for a folder names "GUI Animator/GUI Animator FREE/Demo (JavaScript)/Scenes".
+			3.4) Drag all Demo files in folder into "Scene In Build" in "Build Settings" dialog.
+			3.5) Close "Build Settings" dialog.
+
+		4) In Project tab, double click on "GUI Animator/GUI Animator FREE/Demo (JavaScript)/Scenes/GA FREE JS - Demo01 (960x600px)" or any scene you like.
+
+		5) Press Play button.
+		
+------------------------------------------------------------------
+Switch Tweeners
+------------------------------------------------------------------
+
+	GUI Animator FREE does not contain this capability but full version does, More info at https://www.assetstore.unity3d.com/en/#!/content/28709.
+
+------------------------------------------------------------------
+Designer Workflow
+------------------------------------------------------------------
+
+	Note if you are using Unity UI for first time, please visit these pages,
+		• https://unity3d.com/learn/tutorials/modules/beginner/ui
+		• http://docs.unity3d.com/Manual/UISystem.html
+		• http://docs.unity3d.com/ScriptReference/UI.AnimationTriggers.html
+
+	1) Create new scene.
+
+	2) In Project tab, drag GUIAnimSystemFREE prefab (in "GUI Animator/GUI Animator FREE/Prefabs" folder), drop it on empty area of Hierarchy tab.
+
+		Note each scene needs one GUIAnimSystemFREE prefab.
+
+	3) Add UI objects and arrange them as you like.
+
+	4) In Project tab, drag GUIAnimFREE component (in "GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE/GUIAnimFREE"), drop it on UI objects that you what to animate.
+
+		Note to save your time, select multiple UI objects in Hierarchy tab then drop GUIAnimFREE component on Inspector tab at the same time.
+
+	5) Setup In/Idle/Out animations parameters of GUIAnimFREE as you like.
+
+		Note more info see "GUIAnimFREE components" topic below.
+
+	6) Press Play button and watch the resulets (repeat step 5 if you want to refine the animations).
+
+		Note:
+			• "Animation Mode" parameter of GUIAnimSystemFREE lets you test specific In/Idle/Out animations.
+			• Adjusting "GUI Speed" parameter of GUIAnimSystemFREE will change animation global speed (default is 1.0).
+			• More info see "GUIAnimSystemFREE components" topic below.
+
+	7) Select GUIAnimSystemFREE in Hierarchy tab and disable the "Auto Animation", now let script control them.
+
+	8) Send project to programmer.
+
+------------------------------------------------------------------
+Programmer First Try
+------------------------------------------------------------------
+
+	Note if you are using Unity UI for first time, please visit these pages,
+		• https://unity3d.com/learn/tutorials/modules/beginner/ui
+		• http://docs.unity3d.com/Manual/UISystem.html
+		• http://docs.unity3d.com/ScriptReference/UI.AnimationTriggers.html
+
+	1) Create new scene.
+
+	2) In Project tab, drag GUIAnimSystemFREE prefab (in "GUI Animator/GUI Animator FREE/Prefabs" folder), drop it on empty area of Hierarchy tab.
+
+	3) In Hierachy tab, create Unity Image element.
+
+		3.1) In Project tab, drag GUIAnimFREE component (in "GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE/GUIAnimFREE").
+		3.2) Drop it on Image in Hierarchy tab.
+
+		Note Unity automatically creates a Canvas and EvenSystem objects for UI Image when the first UI element is added to the scene.
+
+	4) In Hierarchy tab, select Image. You should see a component names GUIAnimFREE in Inspector tab.
+
+	5) Make change to some parameters of Move-In of GUIAnimFREE component.
+
+		5.1) Locate Move-In animation then check it to enable.
+		5.2) Change Delay to 3.
+		5.3) Set Time to 2.
+
+	6) Press Play button.
+
+		6.1) You should see Image moves from the top-edge of screen to the it's actual position.
+		6.2) The animation delays for 3 seconds then it takes 2 seconds to finish Move-In animation.
+
+		See "Compatible Tweeners" topic below for more infomation.
+
+
+	7) Select Image object in Hierarchy tab again, now try to enable other animations, select easy type, press Play button and watch the results.
+
+	8) In Hierarchy tab, select GUIAnimSystemFREE then look for GUIAnimSystemFREE component in Inspector tab.
+
+		GUIAnimSystemFREE contains 4 parameters;
+
+		8.1) GUI Speed; this is amount of global speed.
+			    You can use GUI Speed to control all animations' speed in run-time via script. We will talk about it in another section.
+		8.2) Auto Animation; if true, animation play automatically when scene starts. Otherwise, you can use scripts to control all animations.
+		8.3) Animation Mode; this parameter only works when Auto Animation (9.2) is true, you can select what type of animation (In/Idle/Out) to play when you press Play button.
+		8.4) Idle Time; amount of time to play Idle animation. This parameter only works when Auto Animation (9.2) is true.
+
+		See "GUIAnimSystemFREE component" topic below for more infomation.
+
+------------------------------------------------------------------
+GUIAnimFREE Component
+------------------------------------------------------------------
+
+	GUIAnimFREE manages tween animation for Unity UI object.
+
+	1) There are 3 type of animations; In-animations, Idle-animations and Out-animation.
+
+		• In-animations:	Contain Move In, Rotate In, Scale In and Fade In.
+		• Idle-animations:	Contain Scale Loop and Fade Loop.
+		• Out-animations:	Contain Move Out, Rotate Out, Scale Out and Fade Out.
+
+	2) Common parameters:
+
+		• Ease type:		Type of tween animation.
+		• Time:			Amount of seconds to play the animation from start to finish.
+		• Delay:		Amount of seconds to delay before play the animation.
+		• Sounds:		AudioClips to play when animation begins, after the delay and when animation completes.
+
+	3) Move In parameters:
+
+		• Move From:		Position to start before In-Animation plays. Object will move from Move From to the actual position.
+		• Position:		Required when Move From is set to Local Position.
+
+	4) Move Out parameters:
+
+		• Move To:		End position when Move Out plays. Object will move from actual position to the Move To position.
+		• Position:		Required when Move To is set to Local Position.
+
+	5) Rotation In parameters:
+
+		• Rotation:		Rotate the object start from the given Rotation value to the actual rotation of object.
+
+	6) Rotation Out parameters:
+
+		• Rotation:		Rotate the object start from actual rotation of object to the given Rotation value.
+
+	7) Scale In parameters:
+
+		• Scale Begin:		Scale the object start from the Scale Begin value to the actual scale of object.
+
+	8) Scale Out parameters:
+
+		• Scale End:		Scale the object start from the actual scale of object to the Scale End value.
+
+	9) Fade In parameters:
+
+		• Fade Children:	Fading does effects to the children object.
+
+	10) Scale Loop parameters:
+
+		• Min:			Minimum scale.
+		• Max:			Maximum scale.
+
+	11) Fade Loop parameters:
+
+		• Min:			Minimum alpha.
+		• Max:			Maximum alpha.
+		• Fade Children:	Fading loop does effect to children object.
+
+------------------------------------------------------------------
+GUIAnimFREE Methods
+------------------------------------------------------------------
+
+	• public void MoveIn()
+
+		Play In animations for this object and children (Move In, Rotate In, Scale In and Fade In). Note when In animations finished, Idle animations will be started.
+
+		Example:
+
+			MyImage.MoveIn();										// Play In animations for this object and children.
+
+
+	• public void MoveIn(GUIAnimSystemFREE.eGUIMove param1)
+
+		Play In animations (Move In, Rotate In, Scale In and Fade In). Note when In animations finished, Idle animations will be started.
+
+			• GUIAnimSystemFREE.eGUIMove.Self					Play animations only this object.
+
+			• GUIAnimSystemFREE.eGUIMove.Children				Play animations in children objects.
+
+			• GUIAnimSystemFREE.eGUIMove.SelfAndChildren		Play animations for this object and children.
+
+		Example:
+
+			MyImage1.MoveIn(GUIAnimSystemFREE.eGUIMove.Self);				// Play In animations only this object.
+
+			MyImage2.MoveIn(GUIAnimSystemFREE.eGUIMove.Children);			// Play In animations in children objects.
+
+			MyImage3.MoveIn(GUIAnimSystemFREE.eGUIMove.SelfAndChildren);	// Play In animations for this object and children.
+
+	• public void MoveOut()
+
+		Play Out animations for this object and children (Move Out, Rotate Out, Scale Out and Fade Out). Note Idle animations will be stop before Out animations get start.
+
+		Example:
+
+			MyImage.MoveOut();											// Play Out animations for this object and children.
+
+	• public void MoveOut(GUIAnimSystemFREE.eGUIMove param1)
+
+		Play Out animations (Move Out, Rotate Out, Scale Out and Fade Out). Note Idle animations will be stop before Out animations get start.
+
+			• GUIAnimSystemFREE.eGUIMove.Self					Play animations only this object.
+
+			• GUIAnimSystemFREE.eGUIMove.Children				Play animations in children objects.
+
+			• GUIAnimSystemFREE.eGUIMove.SelfAndChildren		Play animations for this object and children.
+
+		Example:
+
+			MyImage1.MoveOutGUIAnimSystemFREE.eGUIMove.Self);				// Play Out animations only this object.
+
+			MyImage2.MoveOut(GUIAnimSystemFREE.eGUIMove.Children);			// Play Out animations in children objects.
+
+			MyImage3.MoveOut(GUIAnimSystemFREE.eGUIMove.SelfAndChildren);	// Play Out animations for this object and children.
+
+------------------------------------------------------------------
+GUIAnimSystemFREE Component
+------------------------------------------------------------------
+
+	GUIAnimSystemFREE controls global speed of all animations in the scene.
+
+	GUIAnimSystemFREE is attached with GUIAnimSystemFREE prefab (found in "/GUI Animator/GUI Animator FREE/Prefabs" folder).
+
+	Note each scene needs one GUIAnimSystemFREE prefab.
+
+	To control it via scripts see Demo scenes and Sample scripts in "Demo (CSharp)" or "Demo (Javascript)" folder.
+
+	1) GUI Speed
+
+		Amount of global speed to multiply the speed of each GUIAnimFREE in the scene. GUI Speed lets you control all UI elements' speed in run-time via script.
+
+	2) Auto Animation
+
+		True:	Animations play automatically in runtime.
+		False:	Animations are be controlled by script.
+
+	3) Animation Mode
+
+		When press Play button and Auto Animation parameter is true, only specific type of animation will play.
+
+	4) Idle Time
+
+		When press Play button and Auto Animation parameter is true, the Idle animation will play as long as amount of Idle Time.
+
+	NOTE "Animation Mode" and "Idle Time" are required if "Auto Animation" is true.
+
+------------------------------------------------------------------
+GUIAnimSystemFREE Methods
+------------------------------------------------------------------
+
+	• public void LoadLevel(string LevelName, float delay)
+
+		Loads the level by its name, with a delay time. This method is used when you want to show some UI animations before load the another level.
+
+		Example:
+
+			GUIAnimSystemFREE.LoadLevel("Level_5", 5.0f);			// Wait 5 seconds then load "Level_5".
+
+	• public void MoveIn(Transform trans, bool EffectsOnChildren)
+
+		Play In animations for an object with or without its children. Note when In animations finished, it will continue with Idle animations.
+
+		Example:
+
+			GUIAnimSystemFREE.MoveIn(MyImage1.transform, false);		// Play In animations of MyImage1.
+
+			GUIAnimSystemFREE.MoveIn(MyImage2.transform, true);		// Play In animations of MyImage2 and its children.
+
+	• public void MoveInAll()
+
+		Play In animations for all GUIAnimSystemFREE elements in the scene. Note when In animations finished, Idle animations will be started.
+
+		Example:
+
+			GUIAnimSystemFREE.MoveInAll();				// Play In animations for all GUIAnimSystemFREE elements in the scene.
+
+	• public void MoveOut(Transform trans, bool EffectsOnChildren)
+
+		Play Out animations for an object with or without its children. Note when Out animations finished, it will continue with Idle animations.
+
+		Example:
+
+			GUIAnimSystemFREE.MoveOut(MyImage1.transform, false);	// Play Out animations of MyImage1.
+
+			GUIAnimSystemFREE.MoveOut(MyImage2.transform, true);		// Play Out animations of MyImage2 and its children.
+
+	• public void MoveOutAll()
+
+		Play Out animations for all GUIAnimSystemFREE elements in the scene. Note when Out animations finished, Idle animations will be started.
+
+		Example:
+
+			GUIAnimSystemFREE.MoveOutAll();				// Play Out animations for all GUIAnimSystemFREE elements in the scene.
+
+	• public void PlayParticle(Transform trans)
+
+		Play a particle object.
+
+		Example:
+
+			GUIAnimSystemFREE.PlayParticle(MyParticle1.transform);	// Play MyParticle1 object.
+
+	• public void StopParticle(Transform trans)
+
+		Stop a playing particle.
+
+		Example:
+
+			GUIAnimSystemFREE.StopParticle(MyParticle1.transform);	// Stop MyParticle1 object.
+
+	• public void DontDestroyParticleWhenLoadNewScene(Transform trans, bool StopParticle)
+
+		Makes particle not be destroyed automatically when loading a new scene.
+
+		Example:
+
+			// Makes MyParticle1 not be destroyed automatically when loading a new scene.
+			GUIAnimSystemFREE.DontDestroyParticleWhenLoadNewScene(MyParticle1.transform, true);
+
+	• public void DontDestroyParticleWhenLoadNewScene(ParticleSystem pParticleSystem, bool StopParticle)
+
+		Makes particle not be destroyed automatically when loading a new scene.
+
+		Example:
+
+			// Makes MyParticle1 not be destroyed automatically when loading a new scene.
+			GUIAnimSystemFREE.DontDestroyParticleWhenLoadNewScene(MyParticle1, true);
+
+	• public void public void FocusOnlyThisCanvas(GameObject gOB)
+
+		Disable other Canvas's GraphicRaycasters but this given one.
+
+		Example:
+
+			// Disable other Canvas's GraphicRaycasters but MyCanvas1.
+			GUIAnimSystemFREE.FocusOnlyThisCanvas(MyCanvas1.gameObject);
+
+	• public void FocusThisCanvas(Canvas pCanvas)
+
+		Disable other Canvas's GraphicRaycasters but this given one.
+
+		Example:
+
+			// Disable other Canvas's GraphicRaycasters but MyCanvas1.
+			GUIAnimSystemFREE.FocusOnlyThisCanvas(MyCanvas1);
+
+	• public void SetGraphicRaycasterEnable(GraphicRaycaster pGraphicRaycaster, bool Enable)
+
+		Enable a GraphicRaycasters.
+
+		Example:
+
+			// Disable MyGraphicRayCaster1
+			GUIAnimSystemFREE.SetGraphicRaycasterEnable(MyCanvas1.GetComponent<GraphicRaycaster> (), false);
+
+			// Enable MyGraphicRayCaster2
+			GUIAnimSystemFREE.SetGraphicRaycasterEnable(MyCanvas2.GetComponent<GraphicRaycaster> (), true);
+
+	• public void EnableAllButtons(bool Enable)
+
+		Enable/disable all Unity UI Buttons in the scene.
+
+		Example:
+
+			GUIAnimSystemFREE.EnableAllButtons(false);					// Disable all Unity UI Buttons in the scene.
+
+	• public void EnableButton(Transform trans, bool Enable)
+
+		Enable/disable Unity UI Button and its children.
+
+		Example:
+
+			GUIAnimSystemFREE.EnableButton(Button1.transform, false);			// Disable Button1 and its children.
+
+	• public void EnableButton(bool Enable, float Seconds)
+
+		Enable/disable all Unity UI Button in next few seconds.
+
+		Example:
+
+			GUIAnimSystemFREE.EnableAllButtons(false, 3.0f);				// Disable all Unity UI Buttons in next 3 seconds.
+
+	• public void EnableButton(Transform trans, bool Enable, float Seconds)
+
+		Enable/disable Button and its children in next few seconds.
+
+		Example:
+
+			GUIAnimSystemFREE.EnableButton(Button1.transform, false, 3.0f);			// Disable Button1 nd its children in next 3 seconds.
+
+	• public void SetInteracableAllButtons(bool Enable)
+
+		Enable/disable Interacable of all Unity UI Buttons in the scene.
+
+		Example:
+
+			GUIAnimSystemFREE.SetInteracableAllButtons(false);				// Disable Interacable of all Unity Buttons in the scene.
+
+	• public void SetInteracableAllButtons(bool Interacable, float Seconds)
+
+		Enable/disable Interacable of all Unity UI Buttons in next few seconds.
+
+		Example:
+
+			GUIAnimSystemFREE.SetInteracableAllButtons(false, 3.0f);			// Disable Interacable of all Unity UI Buttons in next 3 seconds.
+
+	• public void InteracableButton(Transform trans, bool Enable)
+
+		Enable/disable Interacable of a Button.
+
+		Example:
+
+			GUIAnimSystemFREE.InteracableButton(Button1.transform, false);		// Disable Interacable of Button1.
+
+	• public void InteracableButton(Transform trans, bool Interacable, float Seconds)
+
+		Enable/disable Interacable of a Button in next few seconds.
+
+		Example:
+
+			GUIAnimSystemFREE.InteracableButton(Button1.transform, false, 3.0f);		// Disable Interacable of Button1 in next 3 seconds.
+
+------------------------------------------------------------------
+Control GUI Animator via scripts
+------------------------------------------------------------------
+
+	1) Create new scene
+
+		1.1) Add four Unity UI objects; Image, Button, Label and UIPanel.
+		1.2) Name them MyImage, MyButton, MyLabel, MyPanel accordding to UI type.
+		1.3) Arrange them as you like and make sure they are parented to Unity Canvas.
+
+	2) Prepare GUI Animator components
+
+		2.1) GUIAnimSystemFREE
+
+			• In Project tab, drag GUIAnimSystemFREE prefab (in "GUI Animator/GUI Animator FREE/Prefabs" folder).
+			• Drop it on empty area of Hierarchy tab.
+
+			Note you need one GUIAnimSystemFREE for a scene.
+
+		2.2) GUIAnimFREE
+
+			• In Hierachy tab, hold CTRL key then use mouse to select Image, Button, Text and Panel elements.
+			• In Project tab, drag GUIAnimFREE component (in "GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE/GUIAnimFREE").
+			• Drop it on empty area in Inspector tab (while Image, Button, Text and Panel elements are selected).
+
+	3) In Project tab, right click and select create a C# script or JavaScript file then name it ControllerScript.
+
+		Note script file should be located in a folder names Scripts.
+
+	4) Double click ControllerScript, Unity will open script in MonoDevelop (or other Script Editor depends on Unity Preferences setting).
+	
+	5) C# requites "using UnityEngine.UI" statement before class declaration.
+	
+		5.1) C#
+			using UnityEngine.UI;
+	
+		5.2) JavaScript developers, go to next step.
+
+	6) In Awake function, add these lines.
+
+		6.1) C#
+	
+			public void Awake()
+			{
+				// Set GUIAnimSystemFREE.Instance.m_AutoAnimation to false in Awake() will let you control all GUI Animator elements in the scene via scripts.
+				if (enabled)
+				{
+					// Let this script control all animations.
+					GUIAnimSystemFREE.Instance.m_AutoAnimation = false;
+
+					// Set the global speed of animations.
+					GUIAnimSystemFREE.Instance.m_GUISpeed = 1.0f;
+				}
+			}
+
+		6.2) JavaScript
+	
+			function Awake()
+			{
+				// Set GUIAnimSystemFREE.Instance.m_AutoAnimation to false in Awake() will let you control all GUI Animator elements in the scene via scripts.
+				if (enabled)
+				{
+					// Let this script control all animations.
+					GUIAnimSystemFREE.Instance.m_AutoAnimation = false;
+
+					// Set the global speed of animations.
+					GUIAnimSystemFREE.Instance.m_GUISpeed = 1;
+				}
+			}
+
+	7) Add GUIAnimFREE variables to ControllerScript class.
+
+		7.1) C#
+
+			public GUIAnimFREE m_MyImage = null;
+			public GUIAnimFREE m_MyButton = null;
+			public GUIAnimFREE m_MyText = null;
+			public GUIAnimFREE m_MyPanel = null;
+
+		7.2) JavaScript
+			
+			var m_MyImage : GUIAnimFREE;
+			var m_MyButton : GUIAnimFREE;
+			var m_MyText : GUIAnimFREE;
+			var m_MyPanel : GUIAnimFREE;
+
+	8) Back to Unity Editor. In Hierarchy tab, create an empty object then name it SceneController.
+	
+	9) Drag ControllerScript from Project tab, drop it on SceneController in Hierarchy tab.
+
+	10) Select SceneController, you should see ControllerScript component in Inspector Tab. It contains  "My Image", "My Button", "My Text" and "My Panel".
+
+	11) Drag each GUIAnimFREE element from the Hierarchy tab, drop it on each parameter of ControllerScript.
+	
+		11.1) Drag Image from Hierachy tab, drop it into "My Image" parameter.
+		11.2) Drag Button from Hierachy tab, drop it into "My Button" parameter.
+		11.3) Drag Text from Hierachy tab, drop it into "My Text" parameter.
+		11.4) Drag Panel from Hierachy tab, drop it into "My Panel" parameter.
+
+	12) Switch back to script editor, now try these scripts and figure out how you can control animation.
+
+		12.1) Play In-animation.
+
+			A) Play In-animations of m_MyImage and also play animations of its children.
+
+				- C#
+
+					GUIAnimSystemFREE.Instance.MoveIn(m_MyImage.transform, true);
+
+				- JavaScript
+
+					GUIAnimSystemFREE.Instance.MoveIn(m_MyImage.transform, true);
+
+			B) Play In-animations of m_MyImage but ignore animations of its children.
+
+				- C#
+
+					GUIAnimSystemFREE.Instance.MoveIn(m_MyImage.transform, false);
+
+				- JavaScript
+
+					GUIAnimSystemFREE.Instance.MoveIn(m_MyImage.transform, false);
+
+			C) Same A.
+
+				m_MyImage.MoveIn();
+
+			D) Same B.
+
+				- C#
+
+					m_MyImage.MoveIn(GUIAnimSystemFREE.eGUIMove.Self);
+
+				- JavaScript
+
+					m_MyImage.MoveIn(GUIAnimSystemFREE.eGUIMove.Self);
+
+			E) Play In-animations of m_MyImage's children.
+
+				- C#
+
+					m_MyImage.MoveIn(GUIAnimSystemFREE.eGUIMove.Children);
+
+				- JavaScript
+
+					m_MyImage.MoveIn(GUIAnimSystemFREE.eGUIMove.Children);
+
+		12.2 Play Out-animation.
+
+			A) Play Out-animations of m_MyImage and also play animations of its children.
+
+				- C#
+
+					GUIAnimSystemFREE.Instance.MoveOut(m_MyImage.transform, true);
+
+				- JavaScript
+
+					GUIAnimSystemFREE.Instance.MoveOut(m_MyImage.transform, true);
+
+			B) Play Out-animations of m_MyImage but ignore animations of its children.
+
+				- C#
+
+					GUIAnimSystemFREE.Instance.MoveOut(m_MyImage.transform, false);
+
+				- JavaScript
+
+					GUIAnimSystemFREE.Instance.MoveOut(m_MyImage.transform, false);
+
+			C) Same A.
+
+				m_MyImage.MoveOut();
+
+			D) Same B.
+
+				- C#
+
+					m_MyImage.MoveOut(GUIAnimSystemFREE.eGUIMove.Self);
+
+				- JavaScript
+
+					m_MyImage.MoveOut(GUIAnimSystemFREE.eGUIMove.Self);
+
+			E) Play Out-animations of m_MyImage's children.
+
+				- C#
+
+					m_MyImage.MoveOut(GUIAnimSystemFREE.eGUIMove.Children);
+
+				- JavaScript
+
+					m_MyImage.MoveOut(GUIAnimSystemFREE.eGUIMove.Children);
+
+		12.3) GUIAnimSystemFREE methods.
+
+			• Load next level with a delay time.
+
+				- C#
+
+					GUIAnimSystemFREE.Instance.LoadLevel(string LevelName, float DelayTime);
+
+				- JavaScript
+
+					GUIAnimSystemFREE.Instance.LoadLevel(string LevelName, float DelayTime);
+
+			• Enable/disable Graphic Raycaster (http://docs.unity3d.com/Manual/script-GraphicRaycaster.html).
+
+				- C#
+
+					// To enable Graphic Raycaster, set Enable to true.
+					GUIAnimSystemFREE.Instance.SetGraphicRaycasterEnable(GameObject gob, bool Enable);
+					GUIAnimSystemFREE.Instance.SetGraphicRaycasterEnable(Canvas cav, bool Enable);
+					GUIAnimSystemFREE.Instance.SetGraphicRaycasterEnable(Transfrom trans, bool Enable);
+
+				- JavaScript
+
+					// To enable Graphic Raycaster, set Enable to true.
+					GUIAnimSystemFREE.Instance.SetGraphicRaycasterEnable(GameObject gob, bool Enable);
+					GUIAnimSystemFREE.Instance.SetGraphicRaycasterEnable(Canvas cav, bool Enable);
+					GUIAnimSystemFREE.Instance.SetGraphicRaycasterEnable(Transfrom trans, bool Enable);
+
+			• Enable/disable Button and its children.
+
+				- C#
+
+					// To enable Buttons, set Enable to true.
+					GUIAnimSystemFREE.Instance.EnableButton(Transform trans, bool Enable);
+
+				- JavaScript
+
+					// To enable Buttons, set Enable to true.
+					GUIAnimSystemFREE.Instance.EnableButton(Transform trans, bool Enable);
+
+			• Play ParticleSystem and its children.
+				
+				- C#
+
+					GUIAnimSystemFREE.Instance.PlayParticle(Transform trans);
+				
+				- JavaScript
+
+					GUIAnimSystemFREE.Instance.PlayParticle(Transform trans);
+
+			• Stop ParticleSystem and its children.
+				
+				- C#
+
+					GUIAnimSystemFREE.Instance.StopParticle(Transform trans);
+				
+				- JavaScript
+
+					GUIAnimSystemFREE.Instance.StopParticle(Transform trans);
+
+			• Makes ParticleSystem not be destroyed automatically when loading a new scene
+				
+				- C#
+
+					// if DontDestroyChildren parameter is true, children objects will not be destroyed.
+					GUIAnimSystemFREE.Instance.DontDestroyParticleWhenLoadNewScene(Transform trans, bool DontDestroyChildren);
+				
+				- JavaScript
+
+					// if DontDestroyChildren parameter is true, children objects will not be destroyed.
+					GUIAnimSystemFREE.Instance.DontDestroyParticleWhenLoadNewScene(Transform trans, bool DontDestroyChildren);
+
+	13) Try using above statements to manage Move-In, Idle and Move-Out animations for all UI objects in the scene.
+
+		Note:
+			• See Demo scenes and scripts, they are good sample that seperated into C# and JavaScript in "GUI Animator/GUI Animator FREE" folder.
+			• See "GUIAnimFREE Methods" and "GUIAnimSystemFREE Methods" topics above.
+
+------------------------------------------------------------------
+Compatible Tweeners
+------------------------------------------------------------------
+	
+	DOTween: https://www.assetstore.unity3d.com/en/#!/content/27676
+	DOTween Documentation: http://dotween.demigiant.com/documentation.php	
+
+	HOTween: https://www.assetstore.unity3d.com/#/content/3311
+	HOTween Documentation: http://hotween.demigiant.com/documentation.html
+	
+	iTween: https://www.assetstore.unity3d.com/#/content/84 
+	iTween Documentation: http://itween.pixelplacement.com/documentation.php
+
+	LeanTween: https://www.assetstore.unity3d.com/#/content/3595
+	LeanTween Documentation: http://dentedpixel.com/LeanTweenDocumentation/classes/LeanTween.html
+
+------------------------------------------------------------------
+Ease type references
+------------------------------------------------------------------
+
+	• Easings.net:	http://easings.net
+
+	• RobertPenner.com:	http://www.robertpenner.com/easing/easing_demo.html

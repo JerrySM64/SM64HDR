@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3827f2c29fede30478ac8e4acbf7ea3f
+timeCreated: 1504561307
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Super Mario 64 DS
+  fontNames:
+  - Super Mario 64 DS
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

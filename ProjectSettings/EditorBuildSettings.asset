@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Mario64HD/Scenes/StartMenu.unity
+  - enabled: 1
+    path: Assets/Mario64HD/Scenes/Castle.unity
+  - enabled: 1
+    path: Assets/Mario64HD/Scenes/InsideScene.unity
+  - enabled: 1
+    path: Assets/Mario64HD/Scenes/BobOmbBattlefield.unity
+  - enabled: 1
+    path: Assets/Mario64HD/Scenes/BobombMenu.unity
+  - enabled: 1
+    path: Assets/Mario64HD/Scenes/WhompsFortress.unity
+  - enabled: 1
+    path: Assets/Mario64HD/Scenes/KingWhompsFortress.unity
+  - enabled: 1
+    path: Assets/Mario64HD/Scenes/WhompsMenu.unity
+  - enabled: 1
+    path: Assets/Mario64HD/Scenes/gameOver.unity

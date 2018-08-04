@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="Super-Mario-64-HD-Remake-master.Plugins.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Mario64HD\Scripts\LevelHelper\ChangeBGColor.cs">
+    <Files>
+      <File FileName="Assets\New Scripts\ThwompScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Mario64HD\Scripts\LevelHelper\ChangeBGColor.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

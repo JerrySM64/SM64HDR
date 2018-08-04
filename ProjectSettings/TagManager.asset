@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Planet
+  - Star
+  - Cube
+  - raceZone
+  - stopTimerZone
+  - DoorEnter
+  - BobOmbEnter
+  - WhompsEnter
+  - backOut
+  - easterEggCastle
+  - enterBomb
+  - Castle
+  - TowerTrigger
+  - seeingCollider
+  - squished
+  - hurtWhomp
+  - whompExterior
+  - whompScanner
+  - whompSquish
+  - antiUpwarp
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - TempCast
+  - IgnoreShadow
+  - Dynamic
+  - SolidEnemies
+  - Enemies
+  - Player
+  - SolidPlayer
+  - arenaBoundary
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

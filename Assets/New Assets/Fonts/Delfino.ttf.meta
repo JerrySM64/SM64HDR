@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 7e2007005ad60bb45bd417748eddb7d0
+timeCreated: 1505580663
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Delfino
+  fontNames:
+  - Delfino
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

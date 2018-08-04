@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EAA28100-561C-7998-7151-3251D93C8C5B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp.dll</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>5.5.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="GETween">
+      <HintPath>Assets/GUI Animator/Common/Plugins/GETween.dll</HintPath>
+    </Reference>
+    <Reference Include="GUIAnimatorFREE">
+      <HintPath>Assets/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Super-Mario-64-HD-Remake-master.Plugins.csproj">
+      <Project>{8EE7E7FF-13CA-C0CE-3D45-C51BEB86A656}</Project>
+      <Name>Super-Mario-64-HD-Remake-master.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCamera.cs" />
+    <Compile Include="Assets\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCameraUI.cs" />
+    <Compile Include="Assets\GE Common Assets\GE Toggle Full Screen\Scripts\GE_ToggleFullScreenUI.cs" />
+    <Compile Include="Assets\GE Common Assets\Scripts\GE_UIResponder.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo00.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo01.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo02.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo03.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo04.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo05.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo06.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo07.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo08.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_DemoPlaySound.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_OpenOtherScene.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo Basic (CSharp)\Scripts\GUIAnimatorFREEDemo.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\BobOmbBuddy.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\BobOmbMachine.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\EnemyMachine.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\EnemySpawner.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\EnemyTriggerDamage.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\GoombaMachine.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\RollingBallGoldDestroy.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\RollingBallPath.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\RollingBallPathSpawner.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\RollingBallSink.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\WaterBomb.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\WaterBombProjectile.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\WaterBombSpawner.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Doodads\FiringCannon.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Effects\BobOmbExplosion.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Effects\DynamicShadow.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Effects\PlaneShadow.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Effects\ProximityCameraShaker.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Helper\AdditiveTransform.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Helper\MaterialColorChanger.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Helper\MaterialSwapper.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Helper\ShaderSwapper.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Helper\TransparencyFade.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\Coin.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\CoinBlock.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\CoinDrop.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\CoinToss.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\DestructableGrate.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\DestructibleBox.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\Elevator.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\Gate.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\GateSwitch.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\Springboard.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\Teleporter.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\TiltingBridge.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\TriggerableObject.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\WoodenPost.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\ringCoinSide.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\LevelHelper\ActiveInMission.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\LevelHelper\ChangeBGColor.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\LevelHelper\ChangeMixer.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioCamera.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioInput.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioMachine.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioMachineData.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioMachineStates.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioShadow.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioSmartCamera.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioSound.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioStatus.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioVerySmartCamera.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\MarioCollisionType.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\ParticleMaster.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\SimpleStateMachine.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\AnalogDeadZoneVisualizer.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\BowserMask.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\ButtonKeyBinding.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\CoinTextHandler.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\GameMaster.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\HealthDisc.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\ImageToNumber.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\InputManager.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\KeybindingInputHandler.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\MatteFade.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\MissionMaster.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\StarGraphic.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\StarMenu.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\StarTextHandler.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\TimeTextHandler.cs" />
+    <Compile Include="Assets\New Scripts\BKAnimator.cs" />
+    <Compile Include="Assets\New Scripts\BlueSwitch.cs" />
+    <Compile Include="Assets\New Scripts\BobOmbKing.cs" />
+    <Compile Include="Assets\New Scripts\ChangeUniform.cs" />
+    <Compile Include="Assets\New Scripts\DayNightScript.cs" />
+    <Compile Include="Assets\New Scripts\DiscordController.cs" />
+    <Compile Include="Assets\New Scripts\DiscordRpc.cs" />
+    <Compile Include="Assets\New Scripts\ElevatorParent.cs" />
+    <Compile Include="Assets\New Scripts\Gif.cs" />
+    <Compile Include="Assets\New Scripts\HealthHeartScript.cs" />
+    <Compile Include="Assets\New Scripts\KingBobOmbMachine.cs" />
+    <Compile Include="Assets\New Scripts\KingSpawner.cs" />
+    <Compile Include="Assets\New Scripts\LevelMenu.cs" />
+    <Compile Include="Assets\New Scripts\LivesTextHandler.cs" />
+    <Compile Include="Assets\New Scripts\MenuScript.cs" />
+    <Compile Include="Assets\New Scripts\MovingPlatform.cs" />
+    <Compile Include="Assets\New Scripts\MovingPlatformTower.cs" />
+    <Compile Include="Assets\New Scripts\OneUpMushroom.cs" />
+    <Compile Include="Assets\New Scripts\SimpleFlips.cs" />
+    <Compile Include="Assets\New Scripts\SpinningScript.cs" />
+    <Compile Include="Assets\New Scripts\Star.cs" />
+    <Compile Include="Assets\New Scripts\StarCoin.cs" />
+    <Compile Include="Assets\New Scripts\StarScript.cs" />
+    <Compile Include="Assets\New Scripts\SuperKoopaController.cs" />
+    <Compile Include="Assets\New Scripts\ThwompScript.cs" />
+    <Compile Include="Assets\New Scripts\WhompFortressTrigger.cs" />
+    <Compile Include="Assets\New Scripts\YouSpinMeRightRound.cs" />
+    <Compile Include="Assets\New Scripts\fallingPlatform.cs" />
+    <Compile Include="Assets\New Scripts\gameOverMenu.cs" />
+    <Compile Include="Assets\New Scripts\koopaMachine.cs" />
+    <Compile Include="Assets\New Scripts\koopaPath.cs" />
+    <Compile Include="Assets\New Scripts\redCoin.cs" />
+    <Compile Include="Assets\New Scripts\ringCoin.cs" />
+    <Compile Include="Assets\New Scripts\transparent.cs" />
+    <Compile Include="Assets\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Our Assets\Scripts\custom_inputs.cs" />
+    <Compile Include="Assets\Pixelplacement\iTweenPath\iTweenPath.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\SuperCharacterController.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\SuperCollider.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\SuperCollisionType.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\SuperMath.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\SuperStateMachine.cs" />
+    <Compile Include="Assets\SuperCharacterController\DebugDraw.cs" />
+    <Compile Include="Assets\SuperCharacterController\Math3d.cs" />
+    <Compile Include="Assets\SuperCharacterController\RPGController\RPGMesh.cs" />
+    <Compile Include="Assets\SuperCharacterController\RPGController\RPGTriangleTree.cs" />
+    <Compile Include="Assets\Water Flow FREE\Scripts\WaterFlowFREEDemo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Double Sided Shaders\Double Sided Emissive Diffuse.shader" />
+    <None Include="Assets\Double Sided Shaders\Double Sided Standard Diffuse Bump.shader" />
+    <None Include="Assets\Double Sided Shaders\Double Sided Transparent Diffuse Bump Cutout.shader" />
+    <None Include="Assets\Double Sided Shaders\Double Sided Transparent Diffuse Bump.shader" />
+    <None Include="Assets\GUI Animator\GUI Animator FREE\!How to.txt" />
+    <None Include="Assets\GUI Animator\GUI Animator FREE\Readme.txt" />
+    <None Include="Assets\Mario64HD\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\Mario64HD\Shaders\RimAlphaReflect.shader" />
+    <None Include="Assets\Mario64HD\Shaders\RimBumpSpecular.shader" />
+    <None Include="Assets\Mario64HD\Shaders\RimIllumSpecular.shader" />
+    <None Include="Assets\Mario64HD\Shaders\RimReflect.shader" />
+    <None Include="Assets\Mario64HD\Shaders\RimSpecular.shader" />
+    <None Include="Assets\Mario64HD\Shaders\RimSpecularAlpha.shader" />
+    <None Include="Assets\New Assets\Bob-omb King\Unanimated Unfinished\Credit.txt" />
+    <None Include="Assets\New Assets\Umaru\Mushrooms\Credit.txt" />
+    <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+    <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\Standard Assets\LightShafts-master\ColorFilter.shader" />
+    <None Include="Assets\Standard Assets\LightShafts-master\Coord.shader" />
+    <None Include="Assets\Standard Assets\LightShafts-master\Depth.shader" />
+    <None Include="Assets\Standard Assets\LightShafts-master\DepthBreaks.shader" />
+    <None Include="Assets\Standard Assets\LightShafts-master\FinalInterpolation.shader" />
+    <None Include="Assets\Standard Assets\LightShafts-master\InterpolateAlongRays.shader" />
+    <None Include="Assets\Standard Assets\LightShafts-master\Raymarch.shader" />
+    <None Include="Assets\Standard Assets\LightShafts-master\SamplePositions.shader" />
+    <None Include="Assets\Standard Assets\LightShafts-master\Shared.cginc" />
+    <None Include="Assets\SuperCharacterController\README.txt" />
+    <None Include="Assets\Water Flow FREE\Readme.txt" />
+    <None Include="Assets\Water Flow FREE\Shaders\Water Flow FREE Simple.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

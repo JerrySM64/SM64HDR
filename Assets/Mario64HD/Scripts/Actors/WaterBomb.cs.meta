@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 24f8450a658f2004e89bbda465c01a73
+timeCreated: 1506731923
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Target: {instanceID: 0}
+  - Art: {instanceID: 0}
+  - Shadow: {instanceID: 0}
+  - BounceSound: {fileID: 8300000, guid: 0b0ee216a516c0b438ba3781c7b2e14b, type: 3}
+  - DeathEffect: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Super-Mario-64-HD-Remake-master.Plugins", "Super-Mario-64-HD-Remake-master.Plugins.csproj", "{8EE7E7FF-13CA-C0CE-3D45-C51BEB86A656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Super-Mario-64-HD-Remake-master", "Super-Mario-64-HD-Remake-master.csproj", "{EAA28100-561C-7998-7151-3251D93C8C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Super-Mario-64-HD-Remake-master.Editor", "Super-Mario-64-HD-Remake-master.Editor.csproj", "{AB92BB36-D09B-4EAB-46BB-452AB871A384}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EE7E7FF-13CA-C0CE-3D45-C51BEB86A656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE7E7FF-13CA-C0CE-3D45-C51BEB86A656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE7E7FF-13CA-C0CE-3D45-C51BEB86A656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE7E7FF-13CA-C0CE-3D45-C51BEB86A656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA28100-561C-7998-7151-3251D93C8C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA28100-561C-7998-7151-3251D93C8C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA28100-561C-7998-7151-3251D93C8C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA28100-561C-7998-7151-3251D93C8C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB92BB36-D09B-4EAB-46BB-452AB871A384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB92BB36-D09B-4EAB-46BB-452AB871A384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB92BB36-D09B-4EAB-46BB-452AB871A384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB92BB36-D09B-4EAB-46BB-452AB871A384}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
