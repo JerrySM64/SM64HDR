@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Mario64HD/Scenes/Cool Cool Mountian.unity
+- path: Assets/Mario64HD/Scenes/BobOmbBattlefield.unity
   isLoaded: 1
   isActive: 1

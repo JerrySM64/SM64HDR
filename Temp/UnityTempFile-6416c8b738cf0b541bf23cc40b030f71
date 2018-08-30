@@ -1,0 +1,238 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:D:/Unity/Editor/Data/Managed/UnityEngine.dll
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+-r:D:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+-r:D:/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll
+-r:D:/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll
+-r:D:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll
+-r:D:/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll
+-r:D:/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll
+-r:"Assets/GUI Animator/Common/Plugins/GETween.dll"
+-r:"Assets/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll"
+-r:D:/Unity/Editor/Data/Managed/UnityEditor.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_5_6_6
+-define:UNITY_5_6
+-define:UNITY_5
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_RUNTIME_NAVMESH_BUILDING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:ENABLE_VIDEO
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:CROSS_PLATFORM_INPUT
+"Assets/Asset Store/Water Flow FREE/Scripts/WaterFlowFREEDemo.cs"
+"Assets/GE Common Assets/GE Orbit Camera/Scripts/GE_OrbitCamera.cs"
+"Assets/GE Common Assets/GE Orbit Camera/Scripts/GE_OrbitCameraUI.cs"
+"Assets/GE Common Assets/GE Toggle Full Screen/Scripts/GE_ToggleFullScreenUI.cs"
+"Assets/GE Common Assets/Scripts/GE_UIResponder.cs"
+"Assets/GUI Animator/GUI Animator FREE/Demo (CSharp)/Scripts/GA_FREE_Demo00.cs"
+"Assets/GUI Animator/GUI Animator FREE/Demo (CSharp)/Scripts/GA_FREE_Demo01.cs"
+"Assets/GUI Animator/GUI Animator FREE/Demo (CSharp)/Scripts/GA_FREE_Demo02.cs"
+"Assets/GUI Animator/GUI Animator FREE/Demo (CSharp)/Scripts/GA_FREE_Demo03.cs"
+"Assets/GUI Animator/GUI Animator FREE/Demo (CSharp)/Scripts/GA_FREE_Demo04.cs"
+"Assets/GUI Animator/GUI Animator FREE/Demo (CSharp)/Scripts/GA_FREE_Demo05.cs"
+"Assets/GUI Animator/GUI Animator FREE/Demo (CSharp)/Scripts/GA_FREE_Demo06.cs"
+"Assets/GUI Animator/GUI Animator FREE/Demo (CSharp)/Scripts/GA_FREE_Demo07.cs"
+"Assets/GUI Animator/GUI Animator FREE/Demo (CSharp)/Scripts/GA_FREE_Demo08.cs"
+"Assets/GUI Animator/GUI Animator FREE/Demo (CSharp)/Scripts/GA_FREE_DemoPlaySound.cs"
+"Assets/GUI Animator/GUI Animator FREE/Demo (CSharp)/Scripts/GA_FREE_OpenOtherScene.cs"
+"Assets/GUI Animator/GUI Animator FREE/Demo Basic (CSharp)/Scripts/GUIAnimatorFREEDemo.cs"
+Assets/Mario64HD/Scripts/Actors/BobOmbBuddy.cs
+Assets/Mario64HD/Scripts/Actors/BobOmbMachine.cs
+Assets/Mario64HD/Scripts/Actors/EnemyMachine.cs
+Assets/Mario64HD/Scripts/Actors/EnemySpawner.cs
+Assets/Mario64HD/Scripts/Actors/EnemyTriggerDamage.cs
+Assets/Mario64HD/Scripts/Actors/GoombaMachine.cs
+Assets/Mario64HD/Scripts/Actors/RollingBallGoldDestroy.cs
+Assets/Mario64HD/Scripts/Actors/RollingBallPath.cs
+Assets/Mario64HD/Scripts/Actors/RollingBallPathSpawner.cs
+Assets/Mario64HD/Scripts/Actors/RollingBallSink.cs
+Assets/Mario64HD/Scripts/Actors/WaterBomb.cs
+Assets/Mario64HD/Scripts/Actors/WaterBombProjectile.cs
+Assets/Mario64HD/Scripts/Actors/WaterBombSpawner.cs
+Assets/Mario64HD/Scripts/Doodads/FiringCannon.cs
+Assets/Mario64HD/Scripts/Effects/BobOmbExplosion.cs
+Assets/Mario64HD/Scripts/Effects/DynamicShadow.cs
+Assets/Mario64HD/Scripts/Effects/PlaneShadow.cs
+Assets/Mario64HD/Scripts/Effects/ProximityCameraShaker.cs
+Assets/Mario64HD/Scripts/Helper/AdditiveTransform.cs
+Assets/Mario64HD/Scripts/Helper/MaterialColorChanger.cs
+Assets/Mario64HD/Scripts/Helper/MaterialSwapper.cs
+Assets/Mario64HD/Scripts/Helper/ShaderSwapper.cs
+Assets/Mario64HD/Scripts/Helper/TransparencyFade.cs
+Assets/Mario64HD/Scripts/Interactive/Coin.cs
+Assets/Mario64HD/Scripts/Interactive/CoinBlock.cs
+Assets/Mario64HD/Scripts/Interactive/CoinDrop.cs
+Assets/Mario64HD/Scripts/Interactive/CoinToss.cs
+Assets/Mario64HD/Scripts/Interactive/DestructableGrate.cs
+Assets/Mario64HD/Scripts/Interactive/DestructibleBox.cs
+Assets/Mario64HD/Scripts/Interactive/Elevator.cs
+Assets/Mario64HD/Scripts/Interactive/Gate.cs
+Assets/Mario64HD/Scripts/Interactive/GateSwitch.cs
+Assets/Mario64HD/Scripts/Interactive/Springboard.cs
+Assets/Mario64HD/Scripts/Interactive/Teleporter.cs
+Assets/Mario64HD/Scripts/Interactive/TiltingBridge.cs
+Assets/Mario64HD/Scripts/Interactive/TriggerableObject.cs
+Assets/Mario64HD/Scripts/Interactive/WoodenPost.cs
+Assets/Mario64HD/Scripts/Interactive/ringCoinSide.cs
+Assets/Mario64HD/Scripts/LevelHelper/ActiveInMission.cs
+Assets/Mario64HD/Scripts/LevelHelper/ChangeBGColor.cs
+Assets/Mario64HD/Scripts/LevelHelper/ChangeMixer.cs
+Assets/Mario64HD/Scripts/Mario/MarioCamera.cs
+Assets/Mario64HD/Scripts/Mario/MarioInput.cs
+Assets/Mario64HD/Scripts/Mario/MarioMachine.cs
+Assets/Mario64HD/Scripts/Mario/MarioMachineData.cs
+Assets/Mario64HD/Scripts/Mario/MarioMachineStates.cs
+Assets/Mario64HD/Scripts/Mario/MarioShadow.cs
+Assets/Mario64HD/Scripts/Mario/MarioSmartCamera.cs
+Assets/Mario64HD/Scripts/Mario/MarioSound.cs
+Assets/Mario64HD/Scripts/Mario/MarioStatus.cs
+Assets/Mario64HD/Scripts/Mario/MarioVerySmartCamera.cs
+Assets/Mario64HD/Scripts/MarioCollisionType.cs
+"Assets/Mario64HD/Scripts/New Scripts/BKAnimator.cs"
+"Assets/Mario64HD/Scripts/New Scripts/BlueSwitch.cs"
+"Assets/Mario64HD/Scripts/New Scripts/BobOmbKing.cs"
+"Assets/Mario64HD/Scripts/New Scripts/Butterfly.cs"
+"Assets/Mario64HD/Scripts/New Scripts/ChangeUniform.cs"
+"Assets/Mario64HD/Scripts/New Scripts/DayNightScript.cs"
+"Assets/Mario64HD/Scripts/New Scripts/DiscordController.cs"
+"Assets/Mario64HD/Scripts/New Scripts/DiscordRpc.cs"
+"Assets/Mario64HD/Scripts/New Scripts/ElevatorParent.cs"
+"Assets/Mario64HD/Scripts/New Scripts/Gif.cs"
+"Assets/Mario64HD/Scripts/New Scripts/HealthHeartScript.cs"
+"Assets/Mario64HD/Scripts/New Scripts/KingBobOmbMachine.cs"
+"Assets/Mario64HD/Scripts/New Scripts/KingSpawner.cs"
+"Assets/Mario64HD/Scripts/New Scripts/KingWhomp.cs"
+"Assets/Mario64HD/Scripts/New Scripts/LevelMenu.cs"
+"Assets/Mario64HD/Scripts/New Scripts/LivesTextHandler.cs"
+"Assets/Mario64HD/Scripts/New Scripts/MenuScript.cs"
+"Assets/Mario64HD/Scripts/New Scripts/MovingPlatform.cs"
+"Assets/Mario64HD/Scripts/New Scripts/MovingPlatformTower.cs"
+"Assets/Mario64HD/Scripts/New Scripts/OneUpMushroom.cs"
+"Assets/Mario64HD/Scripts/New Scripts/SimpleFlips.cs"
+"Assets/Mario64HD/Scripts/New Scripts/SpinningScript.cs"
+"Assets/Mario64HD/Scripts/New Scripts/Star.cs"
+"Assets/Mario64HD/Scripts/New Scripts/StarCoin.cs"
+"Assets/Mario64HD/Scripts/New Scripts/StarScript.cs"
+"Assets/Mario64HD/Scripts/New Scripts/SuperKoopaController.cs"
+"Assets/Mario64HD/Scripts/New Scripts/ThwompScript.cs"
+"Assets/Mario64HD/Scripts/New Scripts/WhompFortressTrigger.cs"
+"Assets/Mario64HD/Scripts/New Scripts/WhompKillBox.cs"
+"Assets/Mario64HD/Scripts/New Scripts/YouSpinMeRightRound.cs"
+"Assets/Mario64HD/Scripts/New Scripts/boundCollider.cs"
+"Assets/Mario64HD/Scripts/New Scripts/fallingPlatform.cs"
+"Assets/Mario64HD/Scripts/New Scripts/gameOverMenu.cs"
+"Assets/Mario64HD/Scripts/New Scripts/koopaMachine.cs"
+"Assets/Mario64HD/Scripts/New Scripts/koopaPath.cs"
+"Assets/Mario64HD/Scripts/New Scripts/leftScanner.cs"
+"Assets/Mario64HD/Scripts/New Scripts/redCoin.cs"
+"Assets/Mario64HD/Scripts/New Scripts/rightScanner.cs"
+"Assets/Mario64HD/Scripts/New Scripts/ringCoin.cs"
+"Assets/Mario64HD/Scripts/New Scripts/transparent.cs"
+"Assets/Mario64HD/Scripts/New Scripts/whompScanner.cs"
+"Assets/Mario64HD/Scripts/New Scripts/whompWeak.cs"
+Assets/Mario64HD/Scripts/ParticleMaster.cs
+Assets/Mario64HD/Scripts/SimpleStateMachine.cs
+Assets/Mario64HD/Scripts/UI/AnalogDeadZoneVisualizer.cs
+Assets/Mario64HD/Scripts/UI/BowserMask.cs
+Assets/Mario64HD/Scripts/UI/ButtonKeyBinding.cs
+Assets/Mario64HD/Scripts/UI/CoinTextHandler.cs
+Assets/Mario64HD/Scripts/UI/GameMaster.cs
+Assets/Mario64HD/Scripts/UI/HealthDisc.cs
+Assets/Mario64HD/Scripts/UI/ImageToNumber.cs
+Assets/Mario64HD/Scripts/UI/InputManager.cs
+Assets/Mario64HD/Scripts/UI/KeybindingInputHandler.cs
+Assets/Mario64HD/Scripts/UI/MatteFade.cs
+Assets/Mario64HD/Scripts/UI/MissionMaster.cs
+Assets/Mario64HD/Scripts/UI/StarGraphic.cs
+Assets/Mario64HD/Scripts/UI/StarMenu.cs
+Assets/Mario64HD/Scripts/UI/StarTextHandler.cs
+Assets/Mario64HD/Scripts/UI/TimeTextHandler.cs
+Assets/Mario64HD/Scripts/springSwitcher.cs
+Assets/NewBehaviourScript.cs
+"Assets/Our Assets/Scripts/custom_inputs.cs"
+Assets/Pixelplacement/iTweenPath/iTweenPath.cs
+Assets/SuperCharacterController/Core/SuperCharacterController.cs
+Assets/SuperCharacterController/Core/SuperCollider.cs
+Assets/SuperCharacterController/Core/SuperCollisionType.cs
+Assets/SuperCharacterController/Core/SuperMath.cs
+Assets/SuperCharacterController/Core/SuperStateMachine.cs
+Assets/SuperCharacterController/DebugDraw.cs
+Assets/SuperCharacterController/Math3d.cs
+Assets/SuperCharacterController/RPGController/RPGMesh.cs
+Assets/SuperCharacterController/RPGController/RPGTriangleTree.cs
+-r:D:\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll
+-r:D:\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll
+-r:D:\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll
+-r:D:\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll
+-r:D:\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll
+-sdk:unity
