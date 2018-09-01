@@ -1,5 +1,7 @@
 # Super Mario 64 HD Remake
 
+![Game Screenshot](https://i.imgur.com/yOuERwF.jpg)
+
 ## What is this for?
  - It is for Windows and Linux
  
