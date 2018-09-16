@@ -1,4 +1,0 @@
-		~~~		IMPORTANT	~~~
-
-	DO NOT USE: LoadSceneMode.Single
-	USE LoadSceneMode.Additive INSTEAD!
