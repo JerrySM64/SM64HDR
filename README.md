@@ -14,6 +14,3 @@
  
 ## Is there any demo?
  - Just checkout our Discord: https://discord.gg/JqxYv83
- 
-## Also don't forget to checkout my website!
- - http://fernode.de :)
